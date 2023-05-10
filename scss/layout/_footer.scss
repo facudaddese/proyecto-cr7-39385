@@ -1,0 +1,153 @@
+.footer {
+    background-color: #000000;
+    z-index: 10;
+
+    .footer-grid {
+        background-color: #000000;
+        display: grid;
+        grid-template-areas:
+            "h3 h3 h3"
+            "ln cl jyc"
+            "ff pest fit"
+            "hb bin live"
+            "pf pf pf"
+        ;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-gap: 2em;
+
+        .nike-grid {
+            justify-self: center;
+            align-self: center;
+
+            .nike {
+                width: 14em;
+                height: 8em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+
+        .clear-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: cl;
+
+            .clear {
+                @extend .nike;
+            }
+        }
+
+        .jyco-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: jyc;
+
+            .jyco {
+                width: 9em;
+                height: 9em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+
+        .free-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: ff;
+
+            .free {
+                width: 15em;
+                height: 11em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+
+        .pestana-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: pest;
+
+            .pestana {
+                width: 11em;
+                height: 11em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+
+        .fit-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: fit;
+
+            .fitnes {
+                width: 10em;
+                height: 8em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+
+        .herba-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: hb;
+
+            .herbalife {
+                width: 16em;
+                height: 9em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+
+        .bin-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: bin;
+
+            .binance {
+                width: 15em;
+                height: 7em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+
+        .live-grid {
+            justify-self: center;
+            align-self: center;
+            grid-area: live;
+
+            .live {
+                width: 15em;
+                height: 10em;
+                opacity: 30%;
+                padding: 10px;
+            }
+        }
+    }
+
+    h3 {
+        margin: 50px 0;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: #959291;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        grid-area: h3;
+        font-size: 18px;
+    }
+
+    p {
+        margin-top: 50px;
+        margin-bottom: 5px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: #959291;
+        grid-area: pf;
+    }
+}
