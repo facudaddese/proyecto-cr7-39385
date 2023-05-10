@@ -1,185 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 header {
-    background: #000000;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-header nav {
+  background: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 100; }
+  header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-}
-
-header nav div img {
-    height: 3.75em;
-    padding-left: 25px;
-    padding-top: 10px;
-}
-
-header .ul-header {
+    align-items: center; }
+    header nav div img {
+      height: 3.75em;
+      padding-left: 25px;
+      padding-top: 10px; }
+  header .ul-header {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
-}
+    margin: 15px; }
+    header .ul-header li {
+      list-style: none;
+      margin: 10px; }
+      header .ul-header li a {
+        text-decoration: none;
+        color: #959291;
+        padding: 5px;
+        font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+        font-size: 13px;
+        letter-spacing: 5px;
+        font-weight: 700; }
+        header .ul-header li a:hover {
+          color: #ffffff; }
 
-header .ul-header li {
-    list-style: none;
-    margin: 10px;
-}
-
-header .ul-header li a {
-    text-decoration: none;
-    color: #959291;
-    padding: 5px;
-    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
-    font-size: 13px;
-    letter-spacing: 5px;
-    font-weight: 700;
-}
-
-header .ul-header li a:hover {
-    color: #ffffff;
-}
-
-.footer {
-    background-color: #000000;
-    z-index: 10;
-}
-
-.footer .footer-grid {
+footer {
+  background-color: #000000;
+  z-index: 10; }
+  footer .footer-grid {
     background-color: #000000;
     display: grid;
-    grid-template-areas: "h3 h3 h3"
-        "ln cl jyc"
-        "ff pest fit"
-        "hb bin live"
-        "pf pf pf";
+    grid-template-areas: "h3 h3 h3" "ln cl jyc" "ff pest fit" "hb bin live" "pf pf pf";
     justify-content: center;
     align-items: center;
     justify-items: center;
-    grid-gap: 2em;
-}
-
-.footer .footer-grid .nike-grid {
-    justify-self: center;
-    align-self: center;
-}
-
-.footer .footer-grid .nike-grid .nike,
-.footer .footer-grid .nike-grid .clear-grid .clear,
-.footer .footer-grid .clear-grid .nike-grid .clear {
-    width: 14em;
-    height: 8em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer .footer-grid .clear-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: cl;
-}
-
-.footer .footer-grid .jyco-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: jyc;
-}
-
-.footer .footer-grid .jyco-grid .jyco {
-    width: 9em;
-    height: 9em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer .footer-grid .free-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: ff;
-}
-
-.footer .footer-grid .free-grid .free {
-    width: 15em;
-    height: 11em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer .footer-grid .pestana-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: pest;
-}
-
-.footer .footer-grid .pestana-grid .pestana {
-    width: 11em;
-    height: 11em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer .footer-grid .fit-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: fit;
-}
-
-.footer .footer-grid .fit-grid .fitnes {
-    width: 10em;
-    height: 8em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer .footer-grid .herba-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: hb;
-}
-
-.footer .footer-grid .herba-grid .herbalife {
-    width: 16em;
-    height: 9em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer .footer-grid .bin-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: bin;
-}
-
-.footer .footer-grid .bin-grid .binance {
-    width: 15em;
-    height: 7em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer .footer-grid .live-grid {
-    justify-self: center;
-    align-self: center;
-    grid-area: live;
-}
-
-.footer .footer-grid .live-grid .live {
-    width: 15em;
-    height: 10em;
-    opacity: 30%;
-    padding: 10px;
-}
-
-.footer h3 {
+    grid-gap: 2em; }
+    footer .footer-grid .nike-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: ln; }
+      footer .footer-grid .nike-grid .nike {
+        width: 14em;
+        height: 8em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .clear-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: cl; }
+      footer .footer-grid .clear-grid .clear {
+        width: 14em;
+        height: 8em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .jyco-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: jyc; }
+      footer .footer-grid .jyco-grid .jyco {
+        width: 9em;
+        height: 9em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .free-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: ff; }
+      footer .footer-grid .free-grid .free {
+        width: 15em;
+        height: 11em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .pestana-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: pest; }
+      footer .footer-grid .pestana-grid .pestana {
+        width: 11em;
+        height: 11em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .fit-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: fit; }
+      footer .footer-grid .fit-grid .fitnes {
+        width: 10em;
+        height: 8em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .herba-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: hb; }
+      footer .footer-grid .herba-grid .herbalife {
+        width: 16em;
+        height: 9em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .bin-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: bin; }
+      footer .footer-grid .bin-grid .binance {
+        width: 15em;
+        height: 7em;
+        opacity: 30%;
+        padding: 10px; }
+    footer .footer-grid .live-grid {
+      justify-self: center;
+      align-self: center;
+      grid-area: live; }
+      footer .footer-grid .live-grid .live {
+        width: 15em;
+        height: 10em;
+        opacity: 30%;
+        padding: 10px; }
+  footer h3 {
     margin: 50px 0;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -187,20 +135,11 @@ header .ul-header li a:hover {
     letter-spacing: 5px;
     text-transform: uppercase;
     grid-area: h3;
-    font-size: 18px;
-}
-
-.footer p {
+    font-size: 18px; }
+  footer p {
     margin-top: 50px;
     margin-bottom: 5px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #959291;
-    grid-area: pf;
-}
-
-/*@import "./layout/mediaquerry/media-320";
-@import "./layout/mediaquerry/media-375";
-@import "./layout/mediaquerry/media-425";
-@import "./layout/mediaquerry/media-768";
-@import "./layout/mediaquerry/media-1024";*/
+    grid-area: pf; }
