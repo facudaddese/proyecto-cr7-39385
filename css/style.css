@@ -129,7 +129,7 @@ footer {
         padding: 10px; }
   footer h3 {
     margin: 50px 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
     color: #959291;
     letter-spacing: 5px;
@@ -139,7 +139,7 @@ footer {
   footer p {
     margin-top: 50px;
     margin-bottom: 5px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
     color: #959291;
     grid-area: pf; }
