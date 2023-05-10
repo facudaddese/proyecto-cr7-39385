@@ -1,3 +1,5 @@
+$tipografia1 : "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+
 header {
     background: #000000;
     position: sticky;
@@ -34,8 +36,7 @@ header {
                 text-decoration: none;
                 color: #959291;
                 padding: 5px;
-                /* font-family: 'Oswald', sans-serif; */
-                font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+                font-family: $tipografia1;
                 font-size: 13px;
                 letter-spacing: 5px;
                 font-weight: 700;
