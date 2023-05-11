@@ -35,6 +35,108 @@ header {
         header .ul-header li a:hover {
           color: #ffffff; }
 
+main {
+  background: #000000; }
+  main h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    padding-top: 27px;
+    color: #ffffff;
+    grid-area: h1;
+    font-size: 32px; }
+
+.section-bio {
+  /*display: flex;
+    flex-wrap: wrap;
+    justify-content: center;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; }
+  .section-bio .p-bio-records {
+    color: #959291;
+    /* text-align: center; */
+    margin: 15px 30px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    line-height: 30px; }
+  .section-bio div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .section-bio div img {
+      height: 28em;
+      width: 100%;
+      padding: 25px;
+      margin: 10px;
+      /* margin-bottom: 10px; */ }
+
+.section-carrera {
+  /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; */
+  border-top: 1px solid #ffffff; }
+  .section-carrera a {
+    width: 7em;
+    height: 74px;
+    border-radius: 10%;
+    background: #959291;
+    align-self: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 16px;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    order: 2;
+    border: 1px solid #ffffff; }
+    .section-carrera a:hover {
+      box-shadow: 1px 3px 15px #959291; }
+  .section-carrera iframe {
+    margin-bottom: 10px;
+    padding: 15px;
+    margin-top: 10px; }
+
+.section-records {
+  /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;*/
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff; }
+  .section-records .p-bio-records {
+    color: #959291;
+    /* text-align: center; */
+    margin: 15px 30px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    line-height: 30px; }
+  .section-records a {
+    width: 7em;
+    height: 74px;
+    border-radius: 10%;
+    background: #959291;
+    align-self: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding: 16px;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    order: 2;
+    border: 1px solid #ffffff; }
+    .section-records a:hover {
+      box-shadow: 1px 3px 15px #959291; }
+  .section-records div img {
+    margin: 20px 0 30px 0;
+    height: 50em;
+    width: 100%;
+    /* padding: 5px; */
+    /* order: 1; */ }
+
 footer {
   background-color: #000000;
   z-index: 10; }

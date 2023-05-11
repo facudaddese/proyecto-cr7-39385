@@ -1,5 +1,5 @@
 header {
-    background: #000000;
+    background: $background-color;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -30,7 +30,7 @@ header {
 
             a {
                 text-decoration: none;
-                color: #959291;
+                color: $color-dos;
                 padding: 5px;
                 font-family: $tipografia1;
                 font-size: 13px;
@@ -38,7 +38,7 @@ header {
                 font-weight: 700;
 
                 &:hover {
-                    color: #ffffff;
+                    color: $color;
                 }
             }
         }

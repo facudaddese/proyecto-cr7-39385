@@ -139,7 +139,7 @@ footer {
         margin: 50px 0;
         font-family: $tipografia2;
         text-align: center;
-        color: #959291;
+        color: $color-dos;
         letter-spacing: 5px;
         text-transform: uppercase;
         grid-area: h3;
@@ -151,7 +151,7 @@ footer {
         margin-bottom: 5px;
         font-family: $tipografia2;
         text-align: center;
-        color: #959291;
+        color: $color-dos;
         grid-area: pf;
     }
 }
