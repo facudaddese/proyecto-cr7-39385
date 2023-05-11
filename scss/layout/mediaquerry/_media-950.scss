@@ -1,0 +1,64 @@
+@media (max-width: 950px) {
+
+    /*------------*/
+    /*header.html*/
+    /*----------*/
+    .ul-header {
+        flex-direction: column;
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*carrera.html*/
+    /*-----------*/
+    .section-gral {
+        justify-content: center;
+
+        .h3-gral {
+            padding: 0;
+        }
+    }
+
+    .bloque {
+
+        .h3-subtitulos {
+            padding: 0;
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*records.html*/
+    /*-----------*/
+    section {
+
+        .h3-gral {
+            text-align: center;
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-----------*/
+    /*hotel.html*/
+    /*---------*/
+    .grid {
+        @include grid("h1" "h2" "rm" "fc" "eu" "ma" "li", center, none, center, none);
+
+        .h2-grid {
+            font-size: 0.8em;
+        }
+
+        .hotel-5 {
+
+            .img-lisboa {
+                height: 16em;
+                width: 42em;
+                justify-self: center;
+                align-self: center;
+            }
+        }
+    }
+}
