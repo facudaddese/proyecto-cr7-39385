@@ -2,7 +2,7 @@
     border-bottom: 1px solid $color;
     /*display: flex;
     flex-wrap: wrap;*/
-    @include flex($wrap,none);
+    @include flex(wrap,none,none,none);
 
     .h3-gral {
         color: $color;
@@ -11,4 +11,31 @@
         padding-left: 11px;
         font-size: 20px;
     }
+
+    .iframe-gral {
+        /* margin: 35px;
+        padding-left: 5px;
+        padding-right: 5px; */
+        margin: 20px 10px;
+        justify-self: center;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    .bloque {
+
+        .p-gral {
+            color: $color-dos;
+            line-height: 25px;
+            /* text-align: center; */
+            font-family: $tipografia1;
+            margin: 15px 30px;
+            padding: 5px;
+            font-size: 1em;
+            line-height: 30px;
+        }
+    }
+}
+
+.section-sass{
+    @extend .section-gral;
 }

@@ -151,6 +151,38 @@ main {
     /* padding: 5px; */
     /* order: 1; */ }
 
+.section-gral, .section-sass {
+  border-bottom: 1px solid #ffffff;
+  /*display: flex;
+    flex-wrap: wrap;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  flex-direction: none;
+  align-items: none; }
+  .section-gral .h3-gral, .section-sass .h3-gral {
+    color: #ffffff;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    margin: 25px;
+    padding-left: 11px;
+    font-size: 20px; }
+  .section-gral .iframe-gral, .section-sass .iframe-gral {
+    /* margin: 35px;
+        padding-left: 5px;
+        padding-right: 5px; */
+    margin: 20px 10px;
+    justify-self: center;
+    /* border: 1px solid rebeccapurple; */ }
+  .section-gral .bloque .p-gral, .section-sass .bloque .p-gral {
+    color: #959291;
+    line-height: 25px;
+    /* text-align: center; */
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    margin: 15px 30px;
+    padding: 5px;
+    font-size: 1em;
+    line-height: 30px; }
+
 footer {
   background-color: #000000;
   z-index: 10; }
