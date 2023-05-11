@@ -324,13 +324,41 @@ section .h3-gral {
             outline: 1px solid #ffffff;
             color: #959291; }
 
+.grid {
+  display: grid;
+  grid-template-areas: "h1 h1 h1 h1" "h2 h2 h2 h2" "rm rm fc fc" "eu eu ma ma" "li li li li";
+  grid-gap: 1.5em;
+  border-bottom: 1px solid #ffffff;
+  /* padding-bottom: 1em; 
+    justify-content: center;
+    align-items: center;
+    justify-items: center;*/
+  display: flex;
+  flex-wrap: none;
+  justify-content: center;
+  flex-direction: none;
+  align-items: center;
+  justify-items: center; }
+
 footer {
   background-color: #000000;
   z-index: 10; }
   footer .footer-grid {
     background-color: #000000;
+    /*display: grid;
+        grid-template-areas:
+            "h3 h3 h3"
+            "ln cl jyc"
+            "ff pest fit"
+            "hb bin live"
+            "pf pf pf"
+        ;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-gap: 2em;*/
     display: grid;
-    grid-template-areas: "h3 h3 h3" "ln cl jyc" "ff pest fit" "hb bin live" "pf pf pf";
+    grid-template-areas: "h3 h3 h3" "ln cl jyc" "ff pest fit" "hb bin live" "pf pf pf";
     justify-content: center;
     align-items: center;
     justify-items: center;
