@@ -7,4 +7,54 @@ section {
         font-size: 20px;
     }
 }
-//seguir a partir de .section-cl
+
+.section-cl {
+    /*display: flex;
+    flex-flow: column wrap;
+    align-items: center;*/
+    @include flex(wrap, none, column, center);
+    border-bottom: 1px solid $color;
+
+    .div-img {
+        /*display: flex;
+        justify-content: center;
+        flex-wrap: wrap;*/
+        @include flex(wrap, center, none, none);
+        margin: 5px;
+
+        .img-sporting,
+        .img-manchester {
+            padding: 5px;
+            height: 28em;
+            width: 100%;
+        }
+
+        .img-real,
+        .img-juve,
+        .img-portugal {
+            padding: 5px;
+            height: 31.2em;
+            width: 100%;
+        }
+    }
+
+    .ul-titulos {
+        /*display: flex;
+        flex-flow: column wrap;
+        align-items: center;*/
+        @include flex(wrap, none, column, center);
+        color: $color-dos;
+        margin-bottom: 25px;
+        gap: 8px;
+    }
+
+    .div-titulos {
+        /*display: flex;
+        justify-content: center;
+        flex-wrap: wrap;*/
+        @include flex(wrap, center, none, none);
+        font-family: $tipografia1;
+        color: $color;
+        margin: 15px;
+    }
+}

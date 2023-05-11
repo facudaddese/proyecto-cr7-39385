@@ -202,6 +202,62 @@ section .h3-gral {
   padding-left: 11px;
   font-size: 20px; }
 
+.section-cl {
+  /*display: flex;
+    flex-flow: column wrap;
+    align-items: center;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ffffff; }
+  .section-cl .div-img {
+    /*display: flex;
+        justify-content: center;
+        flex-wrap: wrap;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: none;
+    align-items: none;
+    margin: 5px; }
+    .section-cl .div-img .img-sporting,
+    .section-cl .div-img .img-manchester {
+      padding: 5px;
+      height: 28em;
+      width: 100%; }
+    .section-cl .div-img .img-real,
+    .section-cl .div-img .img-juve,
+    .section-cl .div-img .img-portugal {
+      padding: 5px;
+      height: 31.2em;
+      width: 100%; }
+  .section-cl .ul-titulos {
+    /*display: flex;
+        flex-flow: column wrap;
+        align-items: center;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+    flex-direction: column;
+    align-items: center;
+    color: #959291;
+    margin-bottom: 25px;
+    gap: 8px; }
+  .section-cl .div-titulos {
+    /*display: flex;
+        justify-content: center;
+        flex-wrap: wrap;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: none;
+    align-items: none;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    color: #ffffff;
+    margin: 15px; }
+
 footer {
   background-color: #000000;
   z-index: 10; }
