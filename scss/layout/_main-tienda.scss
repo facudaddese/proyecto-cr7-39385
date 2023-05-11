@@ -1,0 +1,68 @@
+.section-gral {
+    @include flex(wrap, none, none, none);
+    border-bottom: 1px solid $color;
+
+    .h2 {
+        font-family: $tipografia2;
+        padding: 40px;
+        color: $color;
+        text-align: left;
+    }
+
+    .box {
+        /*display: flex;
+        flex-flow: column nowrap;*/
+        @include flex(nowrap, none, column, none);
+        margin: auto;
+        overflow: auto;
+
+        .carrusel {
+            /*display: flex;
+            flex-wrap: nowrap;
+            overflow: auto;
+            align-items: center;*/
+            @include flex(nowrap, none, none, center);
+            background-color: $background-color;
+            height: 31.2em;
+            margin: 0 25px 35px 35px;
+
+            .elementos {
+                border: 2px solid $color;
+                height: 29em;
+                margin: 35px;
+                text-align: center;
+
+                img {
+                    width: 16em;
+                    height: 15.6em;
+                    padding: 5px;
+                }
+
+                h4,
+                h5 {
+                    color: $color-dos;
+                    line-height: 25px;
+                    font-family: $tipografia1;
+                    text-align: center;
+                    margin: 25px;
+                    padding: 5px;
+                    font-size: 15px;
+                }
+
+                .boton {
+                    text-align: center;
+
+                    button {
+                        background-color: $background-color;
+                        line-height: 25px;
+                        font-family: $tipografia1;
+                        padding: 5px;
+                        border-radius: 100px;
+                        outline: 1px solid $color;
+                        color: $color-dos;
+                    }
+                }
+            }
+        }
+    }
+}

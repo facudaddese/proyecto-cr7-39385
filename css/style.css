@@ -258,6 +258,72 @@ section .h3-gral {
     color: #ffffff;
     margin: 15px; }
 
+.section-gral, .section-sass, .bloque-sass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  flex-direction: none;
+  align-items: none;
+  border-bottom: 1px solid #ffffff; }
+  .section-gral .h2, .section-sass .h2, .bloque-sass .h2 {
+    font-family: "Oswald", sans-serif;
+    padding: 40px;
+    color: #ffffff;
+    text-align: left; }
+  .section-gral .box, .section-sass .box, .bloque-sass .box {
+    /*display: flex;
+        flex-flow: column nowrap;*/
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: none;
+    flex-direction: column;
+    align-items: none;
+    margin: auto;
+    overflow: auto; }
+    .section-gral .box .carrusel, .section-sass .box .carrusel, .bloque-sass .box .carrusel {
+      /*display: flex;
+            flex-wrap: nowrap;
+            overflow: auto;
+            align-items: center;*/
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: none;
+      flex-direction: none;
+      align-items: center;
+      background-color: #000000;
+      height: 31.2em;
+      margin: 0 25px 35px 35px; }
+      .section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
+        border: 2px solid #ffffff;
+        height: 29em;
+        margin: 35px;
+        text-align: center; }
+        .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+          width: 16em;
+          height: 15.6em;
+          padding: 5px; }
+        .section-gral .box .carrusel .elementos h4, .section-sass .box .carrusel .elementos h4, .bloque-sass .box .carrusel .elementos h4,
+        .section-gral .box .carrusel .elementos h5,
+        .section-sass .box .carrusel .elementos h5,
+        .bloque-sass .box .carrusel .elementos h5 {
+          color: #959291;
+          line-height: 25px;
+          font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+          text-align: center;
+          margin: 25px;
+          padding: 5px;
+          font-size: 15px; }
+        .section-gral .box .carrusel .elementos .boton, .section-sass .box .carrusel .elementos .boton, .bloque-sass .box .carrusel .elementos .boton {
+          text-align: center; }
+          .section-gral .box .carrusel .elementos .boton button, .section-sass .box .carrusel .elementos .boton button, .bloque-sass .box .carrusel .elementos .boton button {
+            background-color: #000000;
+            line-height: 25px;
+            font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+            padding: 5px;
+            border-radius: 100px;
+            outline: 1px solid #ffffff;
+            color: #959291; }
+
 footer {
   background-color: #000000;
   z-index: 10; }
