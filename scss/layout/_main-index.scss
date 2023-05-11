@@ -15,7 +15,7 @@ main {
     /*display: flex;
     flex-wrap: wrap;
     justify-content: center;*/
-    @include flex(wrap, center);
+    @include flex(wrap, center,none,none);
     margin-top: 20px;
 
     .p-bio-records {
@@ -29,7 +29,7 @@ main {
     }
 
     div {
-        @include flex(wrap, center);
+        @include flex(wrap, center,none,none);
 
         img {
             height: 28em;
@@ -46,6 +46,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly; */
+    @include flex(wrap,space-evenly,none,center);
     border-top: 1px solid $color;
 
     a {
@@ -80,6 +81,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row-reverse;*/
+    @include flex(wrap,space-evenly,row-reverse,none);
     border-top: 1px solid $color;
     border-bottom: 1px solid $color;
 

@@ -1,0 +1,14 @@
+.section-gral {
+    border-bottom: 1px solid $color;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    @include flex($wrap,none);
+
+    .h3-gral {
+        color: $color;
+        font-family: $tipografia1;
+        margin: 25px;
+        padding-left: 11px;
+        font-size: 20px;
+    }
+}

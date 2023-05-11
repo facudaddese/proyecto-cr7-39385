@@ -52,6 +52,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: none;
+  align-items: none;
   margin-top: 20px; }
   .section-bio .p-bio-records {
     color: #959291;
@@ -64,7 +66,9 @@ main {
   .section-bio div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    flex-direction: none;
+    align-items: none; }
     .section-bio div img {
       height: 28em;
       width: 100%;
@@ -77,6 +81,11 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: none;
+  align-items: center;
   border-top: 1px solid #ffffff; }
   .section-carrera a {
     width: 7em;
@@ -104,6 +113,11 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row-reverse;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: none;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff; }
   .section-records .p-bio-records {
