@@ -3,38 +3,65 @@
     /*------------*/
     /*footer.html*/
     /*----------*/
-    .footer-grid {
-        @include grid("h3 h3" "ln cl" "jyc ff" "pest fit" "hb bin" "live live" "pf pf", center, none, center, none);
+    footer {
+        .footer-grid {
+            @include grid("h3 h3" "ln cl" "jyc ff" "pest fit" "hb bin" "live live" "pf pf", center, none, center, none);
 
-        .nike,
-        .clear {
-            width: 12em;
-            height: 7em;
-        }
+            .nike-grid {
 
-        .jyco {
-            width: 8em;
-            height: 8em;
-        }
+                .nike {
+                    width: 12em;
+                    height: 7em;
+                }
+            }
 
-        .free {
-            width: 13em;
-            height: 8em;
-        }
+            .clear-grid {
 
-        .herbalife {
-            width: 13em;
-            height: 7em;
-        }
+                .clear {
+                    width: 12em;
+                    height: 7em;
+                }
+            }
 
-        .binance {
-            width: 13em;
-            height: 6em;
-        }
+            .jyco-grid {
 
-        .live {
-            width: 13em;
-            height: 8em;
+                .jyco {
+                    width: 8em;
+                    height: 8em;
+                }
+            }
+
+            .free-grid {
+
+                .free {
+                    width: 13em;
+                    height: 8em;
+                }
+            }
+
+            .herba-grid {
+
+                .herbalife {
+                    width: 13em;
+                    height: 7em;
+                }
+            }
+
+            .bin-grid {
+
+                .binance {
+                    width: 13em;
+                    height: 6em;
+                }
+            }
+
+            .live-grid {
+
+                .live {
+                    width: 13em;
+                    height: 8em;
+                }
+            }
         }
     }
 }

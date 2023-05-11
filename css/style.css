@@ -455,139 +455,45 @@ footer {
     color: #959291;
     grid-area: pf; }
 
-@media (max-width: 320px) {
+@media (max-width: 1150px) {
   /*-----------*/
   /*index.html*/
   /*---------*/
-  .section-bio .p-bio-records {
-    font-size: 1em; }
-  .section-bio div img {
-    height: 14em; }
-  .section-carrera .p-bio-records {
-    font-size: 1em; }
-  .section-carrera iframe {
-    height: 23em;
-    width: 15em; }
-  .section-records .p-bio-records {
-    font-size: 1em; }
-  .section-records div img {
-    height: 22em;
-    width: 15em; }
+  main h1 {
+    font-size: 32px; }
   /*------------------------------------------------*/
   /*-------------*/
   /*carrera.html*/
   /*-----------*/
-  .iframe-gral {
-    width: 85%;
-    height: 23em; }
-  .p-gral {
-    margin-top: 0; }
-  /*------------------------------------------------*/
-  /*-------------*/
-  /*records.html*/
-  /*-----------*/
-  .img-sporting,
-  .img-real {
-    width: 17em;
-    height: 12em; }
-  .img-manchester,
-  .img-juve,
-  .img-portugal {
-    width: 17em;
-    height: 11em; }
-  /*------------------------------------------------*/
-  /*------------*/
-  /*tienda.html*/
-  /*----------*/
-  .h2 {
-    font-size: 1.3em; }
-  /*------------------------------------------------*/
-  /*------------*/
-  /*tienda.html*/
-  /*----------*/
-  .img-madrid,
-  .img-funchal,
-  .img-eeuu,
-  .img-marruecos {
-    width: 17em;
-    height: 14em; }
-  .img-lisboa {
-    width: 17em;
-    height: 8em; }
-  .h2-grid {
-    font-size: 0.7em; } }
-
-@media (max-width: 800px) {
-  /*------------*/
-  /*footer.html*/
-  /*----------*/
-  .footer-grid {
-    display: grid;
-    grid-template-areas: "h3 h3" "ln cl" "jyc ff" "pest fit" "hb bin" "live live" "pf pf";
-    justify-content: center;
-    align-items: none;
-    justify-items: center;
-    grid-gap: none; }
-    .footer-grid .nike,
-    .footer-grid .clear {
-      width: 12em;
-      height: 7em; }
-    .footer-grid .jyco {
-      width: 8em;
-      height: 8em; }
-    .footer-grid .free {
-      width: 13em;
-      height: 8em; }
-    .footer-grid .herbalife {
-      width: 13em;
-      height: 7em; }
-    .footer-grid .binance {
-      width: 13em;
-      height: 6em; }
-    .footer-grid .live {
-      width: 13em;
-      height: 8em; } }
-
-@media (max-width: 950px) {
-  /*------------*/
-  /*header.html*/
-  /*----------*/
-  .ul-header {
-    flex-direction: column; }
-  /*------------------------------------------------*/
-  /*-------------*/
-  /*carrera.html*/
-  /*-----------*/
-  .section-gral, .section-sass, .bloque-sass {
-    justify-content: center; }
-    .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
-      padding: 0; }
+  .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
+    font-size: 19px; }
   .bloque .h3-subtitulos {
-    padding: 0; }
-  /*------------------------------------------------*/
-  /*-------------*/
-  /*records.html*/
-  /*-----------*/
-  section .h3-gral {
-    text-align: center; }
+    font-size: 19px; }
   /*------------------------------------------------*/
   /*-----------*/
   /*hotel.html*/
   /*---------*/
-  .grid {
-    display: grid;
-    grid-template-areas: "h1" "h2" "rm" "fc" "eu" "ma" "li";
-    justify-content: center;
-    align-items: none;
-    justify-items: center;
-    grid-gap: none; }
-    .grid .h2-grid {
-      font-size: 0.8em; }
-    .grid .hotel-5 .img-lisboa {
-      height: 16em;
-      width: 42em;
-      justify-self: center;
-      align-self: center; } }
+  .section-grid .hotel-1 .img-madrid, .section-grid .grid .hotel-2 .img-madrid, .grid .section-grid .hotel-2 .img-madrid, .section-grid .grid .hotel-3 .img-madrid, .grid .section-grid .hotel-3 .img-madrid, .section-grid .grid .hotel-4 .img-madrid, .grid .section-grid .hotel-4 .img-madrid, .section-grid .grid .hotel-5 .img-madrid, .grid .section-grid .hotel-5 .img-madrid {
+    height: 20em;
+    width: 29em; }
+  .section-grid .hotel-2 .img-funchal, .section-grid .grid .hotel-3 .img-funchal, .grid .section-grid .hotel-3 .img-funchal, .section-grid .grid .hotel-4 .img-funchal, .grid .section-grid .hotel-4 .img-funchal, .section-grid .grid .hotel-5 .img-funchal, .grid .section-grid .hotel-5 .img-funchal {
+    height: 20em;
+    width: 29em; }
+  .section-grid .hotel-3 .img-eeuu, .section-grid .grid .hotel-4 .img-eeuu, .grid .section-grid .hotel-4 .img-eeuu, .section-grid .grid .hotel-5 .img-eeuu, .grid .section-grid .hotel-5 .img-eeuu {
+    height: 20em;
+    width: 29em; }
+  .section-grid .hotel-4 .img-marruecos, .section-grid .grid .hotel-5 .img-marruecos, .grid .section-grid .hotel-5 .img-marruecos {
+    height: 20em;
+    width: 29em; }
+  .section-grid .hotel-5 .img-lisboa {
+    height: 20em;
+    width: 59.5em; }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*footer.html*/
+  /*----------*/
+  footer h3 {
+    font-size: 18px; } }
 
 @media (max-width: 1024px) {
   /*-----------*/
@@ -652,42 +558,138 @@ footer {
     width: 59.5em; } }
 
 /*------------------------------------------------*/
-@media (max-width: 1150px) {
-  /*-----------*/
-  /*index.html*/
-  /*---------*/
-  main h1 {
-    font-size: 32px; }
+@media (max-width: 950px) {
+  /*------------*/
+  /*header.html*/
+  /*----------*/
+  .ul-header {
+    flex-direction: column; }
   /*------------------------------------------------*/
   /*-------------*/
   /*carrera.html*/
   /*-----------*/
-  .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
-    font-size: 19px; }
+  .section-gral, .section-sass, .bloque-sass {
+    justify-content: center; }
+    .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
+      padding: 0; }
   .bloque .h3-subtitulos {
-    font-size: 19px; }
+    padding: 0; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  section .h3-gral {
+    text-align: center; }
   /*------------------------------------------------*/
   /*-----------*/
   /*hotel.html*/
   /*---------*/
-  .section-grid .hotel-1 .img-madrid, .section-grid .grid .hotel-2 .img-madrid, .grid .section-grid .hotel-2 .img-madrid, .section-grid .grid .hotel-3 .img-madrid, .grid .section-grid .hotel-3 .img-madrid, .section-grid .grid .hotel-4 .img-madrid, .grid .section-grid .hotel-4 .img-madrid, .section-grid .grid .hotel-5 .img-madrid, .grid .section-grid .hotel-5 .img-madrid {
-    height: 20em;
-    width: 29em; }
-  .section-grid .hotel-2 .img-funchal, .section-grid .grid .hotel-3 .img-funchal, .grid .section-grid .hotel-3 .img-funchal, .section-grid .grid .hotel-4 .img-funchal, .grid .section-grid .hotel-4 .img-funchal, .section-grid .grid .hotel-5 .img-funchal, .grid .section-grid .hotel-5 .img-funchal {
-    height: 20em;
-    width: 29em; }
-  .section-grid .hotel-3 .img-eeuu, .section-grid .grid .hotel-4 .img-eeuu, .grid .section-grid .hotel-4 .img-eeuu, .section-grid .grid .hotel-5 .img-eeuu, .grid .section-grid .hotel-5 .img-eeuu {
-    height: 20em;
-    width: 29em; }
-  .section-grid .hotel-4 .img-marruecos, .section-grid .grid .hotel-5 .img-marruecos, .grid .section-grid .hotel-5 .img-marruecos {
-    height: 20em;
-    width: 29em; }
-  .section-grid .hotel-5 .img-lisboa {
-    height: 20em;
-    width: 59.5em; }
-  /*------------------------------------------------*/
+  .grid {
+    display: grid;
+    grid-template-areas: "h1" "h2" "rm" "fc" "eu" "ma" "li";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none; }
+    .grid .h2-grid {
+      font-size: 0.8em; }
+    .grid .hotel-5 .img-lisboa {
+      height: 16em;
+      width: 42em;
+      justify-self: center;
+      align-self: center; } }
+
+@media (max-width: 800px) {
   /*------------*/
   /*footer.html*/
   /*----------*/
-  footer h3 {
-    font-size: 18px; } }
+  footer .footer-grid {
+    display: grid;
+    grid-template-areas: "h3 h3" "ln cl" "jyc ff" "pest fit" "hb bin" "live live" "pf pf";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none; }
+    footer .footer-grid .nike-grid .nike {
+      width: 12em;
+      height: 7em; }
+    footer .footer-grid .clear-grid .clear {
+      width: 12em;
+      height: 7em; }
+    footer .footer-grid .jyco-grid .jyco {
+      width: 8em;
+      height: 8em; }
+    footer .footer-grid .free-grid .free {
+      width: 13em;
+      height: 8em; }
+    footer .footer-grid .herba-grid .herbalife {
+      width: 13em;
+      height: 7em; }
+    footer .footer-grid .bin-grid .binance {
+      width: 13em;
+      height: 6em; }
+    footer .footer-grid .live-grid .live {
+      width: 13em;
+      height: 8em; } }
+
+@media (max-width: 320px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio .p-bio-records {
+    font-size: 1em; }
+  .section-bio div img {
+    height: 14em; }
+  .section-carrera .p-bio-records {
+    font-size: 1em; }
+  .section-carrera iframe {
+    height: 23em;
+    width: 15em; }
+  .section-records .p-bio-records {
+    font-size: 1em; }
+  .section-records div img {
+    height: 22em;
+    width: 15em; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .iframe-gral {
+    width: 85%;
+    height: 23em; }
+  .p-gral {
+    margin-top: 0; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .img-sporting,
+  .img-real {
+    width: 17em;
+    height: 12em; }
+  .img-manchester,
+  .img-juve,
+  .img-portugal {
+    width: 17em;
+    height: 11em; }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .h2 {
+    font-size: 1.3em; }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .img-madrid,
+  .img-funchal,
+  .img-eeuu,
+  .img-marruecos {
+    width: 17em;
+    height: 14em; }
+  .img-lisboa {
+    width: 17em;
+    height: 8em; }
+  .h2-grid {
+    font-size: 0.7em; } }
