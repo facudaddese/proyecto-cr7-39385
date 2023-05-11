@@ -1,16 +1,4 @@
 .grid {
-    /*display: grid;
-    grid-template-areas:
-        "h1 h1 h1 h1"
-        "h2 h2 h2 h2"
-        "rm rm fc fc"
-        "eu eu ma ma"
-        "li li li li"
-    ;
-    grid-gap: 1.5em;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;*/
     @include grid("h1 h1 h1 h1" "h2 h2 h2 h2" "rm rm fc fc" "eu eu ma ma" "li li li li", center, center, center, 1.5em);
     border-bottom: 1px solid $color;
 

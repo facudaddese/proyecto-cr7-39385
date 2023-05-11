@@ -4,18 +4,6 @@ footer {
 
     .footer-grid {
         background-color: $background-color;
-        /*display: grid;
-        grid-template-areas:
-            "h3 h3 h3"
-            "ln cl jyc"
-            "ff pest fit"
-            "hb bin live"
-            "pf pf pf"
-        ;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-        grid-gap: 2em;*/
         @include grid("h3 h3 h3" "ln cl jyc" "ff pest fit" "hb bin live" "pf pf pf", center, center, center, 2em);
 
         .nike-grid {

@@ -10,17 +10,11 @@
     }
 
     .box {
-        /*display: flex;
-        flex-flow: column nowrap;*/
         @include flex(nowrap, none, column, none);
         margin: auto;
         overflow: auto;
 
         .carrusel {
-            /*display: flex;
-            flex-wrap: nowrap;
-            overflow: auto;
-            align-items: center;*/
             @include flex(nowrap, none, none, center);
             background-color: $background-color;
             height: 31.2em;

@@ -1,7 +1,5 @@
 .section-gral {
     border-bottom: 1px solid $color;
-    /*display: flex;
-    flex-wrap: wrap;*/
     @include flex(wrap, none, none, none);
 
     .h3-gral {
@@ -16,18 +14,13 @@
         @include flex(wrap, center, none, none);
 
         .iframe-gral {
-            /* margin: 35px;
-            padding-left: 5px;
-            padding-right: 5px; */
             margin: 20px 10px;
             justify-self: center;
-            /* border: 1px solid rebeccapurple; */
         }
 
         .p-gral {
             color: $color-dos;
             line-height: 25px;
-            /* text-align: center; */
             font-family: $tipografia1;
             margin: 15px 30px;
             padding: 5px;
