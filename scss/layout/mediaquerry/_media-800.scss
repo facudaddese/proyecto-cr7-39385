@@ -1,0 +1,40 @@
+@media (max-width: 800px) {
+
+    /*------------*/
+    /*footer.html*/
+    /*----------*/
+    .footer-grid {
+        @include grid("h3 h3" "ln cl" "jyc ff" "pest fit" "hb bin" "live live" "pf pf", center, none, center, none);
+
+        .nike,
+        .clear {
+            width: 12em;
+            height: 7em;
+        }
+
+        .jyco {
+            width: 8em;
+            height: 8em;
+        }
+
+        .free {
+            width: 13em;
+            height: 8em;
+        }
+
+        .herbalife {
+            width: 13em;
+            height: 7em;
+        }
+
+        .binance {
+            width: 13em;
+            height: 6em;
+        }
+
+        .live {
+            width: 13em;
+            height: 8em;
+        }
+    }
+}

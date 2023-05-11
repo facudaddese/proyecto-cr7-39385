@@ -517,6 +517,78 @@ footer {
   .h2-grid {
     font-size: 0.7em; } }
 
+@media (max-width: 800px) {
+  /*------------*/
+  /*footer.html*/
+  /*----------*/
+  .footer-grid {
+    display: grid;
+    grid-template-areas: "h3 h3" "ln cl" "jyc ff" "pest fit" "hb bin" "live live" "pf pf";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none; }
+    .footer-grid .nike,
+    .footer-grid .clear {
+      width: 12em;
+      height: 7em; }
+    .footer-grid .jyco {
+      width: 8em;
+      height: 8em; }
+    .footer-grid .free {
+      width: 13em;
+      height: 8em; }
+    .footer-grid .herbalife {
+      width: 13em;
+      height: 7em; }
+    .footer-grid .binance {
+      width: 13em;
+      height: 6em; }
+    .footer-grid .live {
+      width: 13em;
+      height: 8em; } }
+
+@media (max-width: 950px) {
+  /*------------*/
+  /*header.html*/
+  /*----------*/
+  .ul-header {
+    flex-direction: column; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral, .section-sass, .bloque-sass {
+    justify-content: center; }
+    .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
+      padding: 0; }
+  .bloque .h3-subtitulos {
+    padding: 0; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  section .h3-gral {
+    text-align: center; }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid {
+    display: grid;
+    grid-template-areas: "h1" "h2" "rm" "fc" "eu" "ma" "li";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none; }
+    .grid .h2-grid {
+      font-size: 0.8em; }
+    .grid .hotel-5 .img-lisboa {
+      height: 16em;
+      width: 42em;
+      justify-self: center;
+      align-self: center; } }
+
 @media (max-width: 1024px) {
   /*-----------*/
   /*index.html*/
