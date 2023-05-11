@@ -1,0 +1,152 @@
+@media (max-width: 1024px) {
+
+    /*-----------*/
+    /*index.html*/
+    /*---------*/
+    .section-bio {
+
+        div {
+
+            img {
+                height: 27em;
+            }
+        }
+    }
+
+    .section-records {
+
+        div {
+
+            img {
+                height: 37em;
+            }
+        }
+    }
+
+    .section-carrera {
+
+        iframe {
+            height: 36em;
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*carrera.html*/
+    /*-----------*/
+    .section-gral {
+
+        .bloque {
+
+            .iframe-gral {
+                width: 93%;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*records.html*/
+    /*-----------*/
+    .section-cl {
+
+        .div-img {
+
+            .img-sporting {
+                width: 40em;
+                height: 25em;
+            }
+
+            .img-manchester,
+            .img-real,
+            .img-juve {
+                width: 43em;
+                height: 25em;
+            }
+
+            .img-portugal {
+                width: 46em;
+                height: 25em;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*tienda.html*/
+    /*----------*/
+    .section-gral {
+
+        .box {
+
+            .carrusel {
+
+                .elementos {
+                    width: 16em;
+                    height: 28em;
+
+                    img {
+                        width: 15em;
+                    }
+
+                    h4 {
+                        font-size: 0.9em;
+                    }
+                }
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-----------*/
+    /*hotel.html*/
+    /*---------*/
+    .section-grid {
+
+        .hotel-1 {
+
+            .img-madrid {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-2 {
+
+            .img-funchal {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-3 {
+
+            .img-eeuu {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-4 {
+
+            .img-marruecos {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-5 {
+
+            .img-lisboa {
+                height: 20em;
+                width: 59.5em;
+            }
+        }
+    }
+}
+
+/*------------------------------------------------*/

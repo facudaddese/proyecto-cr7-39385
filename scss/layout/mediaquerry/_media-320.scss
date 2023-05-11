@@ -1,0 +1,107 @@
+@media (max-width: 320px) {
+
+    /*-----------*/
+    /*index.html*/
+    /*---------*/
+    .section-bio {
+
+        .p-bio-records {
+            font-size: 1em;
+        }
+
+        div {
+            img {
+                height: 14em;
+            }
+        }
+    }
+
+    .section-carrera {
+
+        .p-bio-records {
+            font-size: 1em;
+        }
+
+        iframe {
+            height: 23em;
+            width: 15em;
+        }
+    }
+
+    .section-records {
+
+        .p-bio-records {
+            font-size: 1em;
+        }
+
+        div {
+            img {
+                height: 22em;
+                width: 15em;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*carrera.html*/
+    /*-----------*/
+    .iframe-gral {
+        width: 85%;
+        height: 23em;
+    }
+
+    .p-gral {
+        margin-top: 0;
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*records.html*/
+    /*-----------*/
+    .img-sporting,
+    .img-real {
+        width: 17em;
+        height: 12em;
+    }
+
+    .img-manchester,
+    .img-juve,
+    .img-portugal {
+        width: 17em;
+        height: 11em;
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*tienda.html*/
+    /*----------*/
+    .h2 {
+        font-size: 1.3em;
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*tienda.html*/
+    /*----------*/
+    .img-madrid,
+    .img-funchal,
+    .img-eeuu,
+    .img-marruecos {
+        width: 17em;
+        height: 14em;
+    }
+
+    .img-lisboa {
+        width: 17em;
+        height: 8em;
+    }
+
+    .h2-grid {
+        font-size: 0.7em;
+    }
+}
