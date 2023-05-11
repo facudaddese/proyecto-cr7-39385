@@ -195,6 +195,13 @@ main {
   margin: 15px;
   font-size: 20px; }
 
+section .h3-gral {
+  color: #ffffff;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  margin: 25px;
+  padding-left: 11px;
+  font-size: 20px; }
+
 footer {
   background-color: #000000;
   z-index: 10; }
