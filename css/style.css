@@ -325,20 +325,78 @@ section .h3-gral {
             color: #959291; }
 
 .grid {
-  display: grid;
-  grid-template-areas: "h1 h1 h1 h1" "h2 h2 h2 h2" "rm rm fc fc" "eu eu ma ma" "li li li li";
-  grid-gap: 1.5em;
-  border-bottom: 1px solid #ffffff;
-  /* padding-bottom: 1em; 
+  /*display: grid;
+    grid-template-areas:
+        "h1 h1 h1 h1"
+        "h2 h2 h2 h2"
+        "rm rm fc fc"
+        "eu eu ma ma"
+        "li li li li"
+    ;
+    grid-gap: 1.5em;
     justify-content: center;
     align-items: center;
     justify-items: center;*/
-  display: flex;
-  flex-wrap: none;
+  display: grid;
+  grid-template-areas: "h1 h1 h1 h1" "h2 h2 h2 h2" "rm rm fc fc" "eu eu ma ma" "li li li li";
   justify-content: center;
-  flex-direction: none;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+  grid-gap: 1.5em;
+  border-bottom: 1px solid #ffffff; }
+  .grid .h1-grid {
+    font-family: "Oswald", sans-serif;
+    padding-top: 27px;
+    color: #ffffff;
+    grid-area: h1;
+    font-size: 2em;
+    text-align: center; }
+  .grid .h2-grid {
+    color: #ffffff;
+    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+    margin: 35px;
+    padding-left: 5px;
+    font-size: 15px;
+    justify-self: center;
+    align-items: center;
+    grid-area: h2;
+    text-align: center; }
+  .grid .hotel-1, .grid .hotel-2, .grid .hotel-3, .grid .hotel-4, .grid .hotel-5 {
+    grid-area: rm;
+    justify-self: center;
+    align-self: center; }
+    .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
+      height: 27em;
+      width: 35em; }
+  .grid .hotel-2, .grid .hotel-3, .grid .hotel-4, .grid .hotel-5 {
+    grid-area: fc;
+    /*justify-self: center;
+        align-self: center;*/ }
+    .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
+      height: 27em;
+      width: 35em; }
+  .grid .hotel-3, .grid .hotel-4, .grid .hotel-5 {
+    grid-area: eu;
+    /*justify-self: center;
+        align-self: center;*/ }
+    .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+      height: 27em;
+      width: 35em; }
+  .grid .hotel-4, .grid .hotel-5 {
+    grid-area: ma;
+    /*justify-self: center;
+        align-self: center;*/ }
+    .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+      height: 27em;
+      width: 35em; }
+  .grid .hotel-5 {
+    grid-area: li;
+    /*justify-self: center;
+        align-self: center;*/ }
+    .grid .hotel-5 .img-lisboa {
+      height: 25em;
+      width: 71.5em;
+      margin-bottom: 15px; }
 
 footer {
   background-color: #000000;
