@@ -151,7 +151,7 @@ main {
     /* padding: 5px; */
     /* order: 1; */ }
 
-.section-gral, .section-sass {
+.section-gral, .section-sass, .bloque-sass {
   border-bottom: 1px solid #ffffff;
   /*display: flex;
     flex-wrap: wrap;*/
@@ -160,28 +160,40 @@ main {
   justify-content: none;
   flex-direction: none;
   align-items: none; }
-  .section-gral .h3-gral, .section-sass .h3-gral {
+  .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
     color: #ffffff;
     font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
     margin: 25px;
     padding-left: 11px;
     font-size: 20px; }
-  .section-gral .iframe-gral, .section-sass .iframe-gral {
-    /* margin: 35px;
-        padding-left: 5px;
-        padding-right: 5px; */
-    margin: 20px 10px;
-    justify-self: center;
-    /* border: 1px solid rebeccapurple; */ }
-  .section-gral .bloque .p-gral, .section-sass .bloque .p-gral {
-    color: #959291;
-    line-height: 25px;
-    /* text-align: center; */
-    font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
-    margin: 15px 30px;
-    padding: 5px;
-    font-size: 1em;
-    line-height: 30px; }
+  .section-gral .bloque, .section-sass .bloque, .bloque-sass .bloque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: none;
+    align-items: none; }
+    .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+      /* margin: 35px;
+            padding-left: 5px;
+            padding-right: 5px; */
+      margin: 20px 10px;
+      justify-self: center;
+      /* border: 1px solid rebeccapurple; */ }
+    .section-gral .bloque .p-gral, .section-sass .bloque .p-gral, .bloque-sass .bloque .p-gral {
+      color: #959291;
+      line-height: 25px;
+      /* text-align: center; */
+      font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+      margin: 15px 30px;
+      padding: 5px;
+      font-size: 1em;
+      line-height: 30px; }
+
+.bloque-sass .h3-subtitulos {
+  color: #ffffff;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  margin: 15px;
+  font-size: 20px; }
 
 footer {
   background-color: #000000;
