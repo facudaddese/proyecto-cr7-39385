@@ -1,0 +1,93 @@
+@media (max-width: 1150px) {
+
+    /*-----------*/
+    /*index.html*/
+    /*---------*/
+    main {
+
+        h1 {
+            font-size: 32px;
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*carrera.html*/
+    /*-----------*/
+    .section-gral {
+
+        .h3-gral {
+            font-size: 19px;
+        }
+    }
+
+    .bloque {
+
+        .h3-subtitulos {
+            font-size: 19px;
+        }
+    }
+
+
+
+    /*------------------------------------------------*/
+
+    /*-----------*/
+    /*hotel.html*/
+    /*---------*/
+    .section-grid {
+
+        .hotel-1 {
+
+            .img-madrid {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-2 {
+
+            .img-funchal {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-3 {
+
+            .img-eeuu {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-4 {
+
+            .img-marruecos {
+                height: 20em;
+                width: 29em;
+            }
+        }
+
+        .hotel-5 {
+
+            .img-lisboa {
+                height: 20em;
+                width: 59.5em;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*footer.html*/
+    /*----------*/
+    footer {
+
+        h3 {
+            font-size: 18px;
+        }
+    }
+}
