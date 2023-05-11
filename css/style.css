@@ -501,10 +501,10 @@ footer {
   /*---------*/
   .section-bio div img {
     height: 27em; }
-  .section-records div img {
-    height: 37em; }
   .section-carrera iframe {
     height: 36em; }
+  .section-records div img {
+    height: 37em; }
   /*------------------------------------------------*/
   /*-------------*/
   /*carrera.html*/
@@ -518,8 +518,12 @@ footer {
   .section-cl .div-img .img-sporting {
     width: 40em;
     height: 25em; }
-  .section-cl .div-img .img-manchester,
-  .section-cl .div-img .img-real,
+  .section-cl .div-img .img-manchester {
+    width: 43em;
+    height: 25em; }
+  .section-cl .div-img .img-real {
+    width: 43em;
+    height: 25em; }
   .section-cl .div-img .img-juve {
     width: 43em;
     height: 25em; }
@@ -557,7 +561,6 @@ footer {
     height: 20em;
     width: 59.5em; } }
 
-/*------------------------------------------------*/
 @media (max-width: 950px) {
   /*------------*/
   /*header.html*/
@@ -572,7 +575,7 @@ footer {
     justify-content: center; }
     .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
       padding: 0; }
-  .bloque .h3-subtitulos {
+  .bloque-sass .h3-subtitulos {
     padding: 0; }
   /*------------------------------------------------*/
   /*-------------*/
@@ -631,6 +634,53 @@ footer {
     footer .footer-grid .live-grid .live {
       width: 13em;
       height: 8em; } }
+
+@media (max-width: 768px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 21em; }
+  .section-records div img {
+    height: 33em; }
+  .section-carrera iframe {
+    height: 35em; }
+  .section-carrera a,
+  .section-records a {
+    width: 6em;
+    height: 50px;
+    padding: 5px;
+    margin: 15px; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .iframe-gral {
+    width: 91%; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .img-sporting {
+    width: 38em;
+    height: 25em; }
+  .img-manchester,
+  .img-real,
+  .img-juve {
+    width: 38em;
+    height: 23em; }
+  .img-portugal {
+    width: 40em;
+    height: 22em; }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .elementos {
+    height: 26.5em; }
+  .elementos img {
+    width: 12em;
+    height: 12em; } }
 
 @media (max-width: 320px) {
   /*-----------*/

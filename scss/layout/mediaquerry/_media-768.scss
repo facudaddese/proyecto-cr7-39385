@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+    /*-----------*/
+    /*index.html*/
+    /*---------*/
+    .section-bio div img {
+        height: 21em;
+    }
+
+    .section-records div img {
+        height: 33em;
+    }
+
+    .section-carrera iframe {
+        height: 35em;
+    }
+
+    .section-carrera a,
+    .section-records a {
+        width: 6em;
+        height: 50px;
+        padding: 5px;
+        margin: 15px;
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*carrera.html*/
+    /*-----------*/
+    .iframe-gral {
+        width: 91%;
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*records.html*/
+    /*-----------*/
+    .img-sporting {
+        width: 38em;
+        height: 25em;
+    }
+
+    .img-manchester,
+    .img-real,
+    .img-juve {
+        width: 38em;
+        height: 23em;
+    }
+
+    .img-portugal {
+        width: 40em;
+        height: 22em;
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*tienda.html*/
+    /*----------*/
+    .elementos {
+        height: 26.5em;
+    }
+
+    .elementos img {
+        width: 12em;
+        height: 12em;
+    }
+}

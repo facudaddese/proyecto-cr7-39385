@@ -1,4 +1,5 @@
 @media (max-width: 1024px) {
+
     /*-----------*/
     /*index.html*/
     /*---------*/
@@ -12,6 +13,13 @@
         }
     }
 
+    .section-carrera {
+
+        iframe {
+            height: 36em;
+        }
+    }
+
     .section-records {
 
         div {
@@ -19,13 +27,6 @@
             img {
                 height: 37em;
             }
-        }
-    }
-
-    .section-carrera {
-
-        iframe {
-            height: 36em;
         }
     }
 
@@ -58,8 +59,16 @@
                 height: 25em;
             }
 
-            .img-manchester,
-            .img-real,
+            .img-manchester {
+                width: 43em;
+                height: 25em;
+            }
+
+            .img-real {
+                width: 43em;
+                height: 25em;
+            }
+
             .img-juve {
                 width: 43em;
                 height: 25em;
@@ -147,5 +156,3 @@
         }
     }
 }
-
-/*------------------------------------------------*/
