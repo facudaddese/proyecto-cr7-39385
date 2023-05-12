@@ -714,6 +714,32 @@ footer {
     width: 23em;
     height: 10em; } }
 
+@media (max-width: 640px) {
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .section-cl .div-img .img-sporting {
+    width: 23.5em;
+    height: 15em; }
+  .section-cl .div-img .img-manchester {
+    width: 23.5em;
+    height: 15em; }
+  .section-cl .div-img .img-real {
+    width: 23.5em;
+    height: 15em; }
+  .section-cl .div-img .img-juve {
+    width: 23.5em;
+    height: 15em; }
+  .section-cl .div-img .img-portugal {
+    width: 23.5em;
+    height: 13em; }
+  .section-cl .div-titulos {
+    font-size: 0.9em;
+    width: 86%; }
+  .ul-titulos {
+    font-size: 0.8em;
+    width: 80%; } }
+
 @media (max-width: 320px) {
   /*-----------*/
   /*index.html*/
