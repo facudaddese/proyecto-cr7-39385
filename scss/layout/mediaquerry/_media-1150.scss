@@ -1,5 +1,21 @@
 @media (max-width: 1150px) {
 
+    /*------------*/
+    /*header.html*/
+    /*----------*/
+    .navbar {
+
+        .container-fluid {
+
+            button {
+                padding: 5px;
+                outline: 1px solid $color;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
     /*-----------*/
     /*index.html*/
     /*---------*/

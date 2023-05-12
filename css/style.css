@@ -262,10 +262,7 @@ section .h3-gral {
           width: 16em;
           height: 15.6em;
           padding: 5px; }
-        .section-gral .box .carrusel .elementos h4, .section-sass .box .carrusel .elementos h4, .bloque-sass .box .carrusel .elementos h4,
-        .section-gral .box .carrusel .elementos h5,
-        .section-sass .box .carrusel .elementos h5,
-        .bloque-sass .box .carrusel .elementos h5 {
+        .section-gral .box .carrusel .elementos h4, .section-sass .box .carrusel .elementos h4, .bloque-sass .box .carrusel .elementos h4, .section-gral .box .carrusel .elementos h5, .section-sass .box .carrusel .elementos h5, .bloque-sass .box .carrusel .elementos h5 {
           color: #959291;
           line-height: 25px;
           font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
@@ -275,7 +272,7 @@ section .h3-gral {
           font-size: 15px; }
         .section-gral .box .carrusel .elementos .boton, .section-sass .box .carrusel .elementos .boton, .bloque-sass .box .carrusel .elementos .boton {
           text-align: center; }
-          .section-gral .box .carrusel .elementos .boton button, .section-sass .box .carrusel .elementos .boton button, .bloque-sass .box .carrusel .elementos .boton button {
+          .section-gral .box .carrusel .elementos .boton .button, .section-sass .box .carrusel .elementos .boton .button, .bloque-sass .box .carrusel .elementos .boton .button {
             background-color: #000000;
             line-height: 25px;
             font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
@@ -456,6 +453,13 @@ footer {
     grid-area: pf; }
 
 @media (max-width: 1150px) {
+  /*------------*/
+  /*header.html*/
+  /*----------*/
+  .navbar .container-fluid button {
+    padding: 5px;
+    outline: 1px solid #ffffff; }
+  /*------------------------------------------------*/
   /*-----------*/
   /*index.html*/
   /*---------*/
@@ -539,7 +543,7 @@ footer {
     height: 28em; }
     .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
       width: 15em; }
-    .section-gral .box .carrusel .elementos h4, .section-sass .box .carrusel .elementos h4, .bloque-sass .box .carrusel .elementos h4 {
+    .section-gral .box .carrusel .elementos h4, .section-sass .box .carrusel .elementos h4, .bloque-sass .box .carrusel .elementos h4, .section-gral .box .carrusel .elementos h5, .section-sass .box .carrusel .elementos h5, .bloque-sass .box .carrusel .elementos h5 {
       font-size: 0.9em; }
   /*------------------------------------------------*/
   /*-----------*/
@@ -830,6 +834,9 @@ footer {
   /*-----------*/
   /*index.html*/
   /*---------*/
+  header nav .collapse .ul-header {
+    padding: 0;
+    margin: 0; }
   header nav div img {
     padding-left: 0; }
   .section-bio .p-bio-records {
@@ -899,6 +906,8 @@ footer {
   /*------------*/
   /*footer.html*/
   /*----------*/
+  footer .footer-grid h3 {
+    font-size: 16px; }
   footer .footer-grid .nike-grid .nike {
     width: 11em;
     height: 7em; }
@@ -917,11 +926,14 @@ footer {
   footer .footer-grid .bin-grid .binance {
     width: 13em; }
   footer .footer-grid .live-grid .live {
-    width: 13em; } }
+    width: 13em; }
+  footer .footer-grid p {
+    font-size: 14px; } }
 
 @media (max-width: 320px) {
   /*-----------*/
   /*index.html*/
+  /*---------*/
   .section-bio .p-bio-records {
     font-size: 1em; }
   .section-bio div img {

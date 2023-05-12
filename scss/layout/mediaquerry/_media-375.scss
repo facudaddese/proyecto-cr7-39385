@@ -7,6 +7,13 @@
 
         nav {
 
+            .collapse {
+
+                .ul-header {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
             div {
 
                 img {
@@ -183,6 +190,10 @@
 
         .footer-grid {
 
+            h3 {
+                font-size: 16px;
+            }
+
             .nike-grid {
 
                 .nike {
@@ -235,6 +246,10 @@
                 .live {
                     width: 13em;
                 }
+            }
+
+            p {
+                font-size: 14px;
             }
         }
     }
