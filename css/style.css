@@ -748,6 +748,54 @@ footer {
     height: 32em;
     width: 22em; } }
 
+@media (max-width: 450px) {
+  /*------------*/
+  /*header.html*/
+  /*----------*/
+  .ul-header {
+    margin: 0;
+    padding: 0; }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 17.2em; }
+  .section-carrera iframe {
+    height: 27em; }
+  .section-carrera a {
+    width: 5em;
+    height: 55px;
+    margin: 15px;
+    font-size: 1em; }
+  .section-records a {
+    width: 5em;
+    height: 55px;
+    margin: 15px;
+    font-size: 1em; }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*footer.html*/
+  /*----------*/
+  footer .footer-grid {
+    display: grid;
+    grid-template-areas: "h3" "ln" "cl" "jyc" "ff" "pest" "fit" "hb" "bin" "live" "pf";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none; }
+    footer .footer-grid .nike-grid .nike {
+      height: 7em; }
+    footer .footer-grid .clear-grid .clear {
+      height: 7em; }
+    footer .footer-grid .free-grid .free {
+      height: 8em; }
+    footer .footer-grid .herba-grid .herbalife {
+      height: 7em; }
+    footer .footer-grid .bin-grid .binance {
+      margin-top: 15px;
+      height: 6.5em; } }
+
 @media (max-width: 320px) {
   /*-----------*/
   /*index.html*/

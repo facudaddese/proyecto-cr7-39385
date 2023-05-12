@@ -1,0 +1,99 @@
+@media (max-width: 450px) {
+
+    /*------------*/
+    /*header.html*/
+    /*----------*/
+    .ul-header {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*------------------------------------------------*/
+
+    /*-----------*/
+    /*index.html*/
+    /*---------*/
+    .section-bio {
+
+        div {
+
+            img {
+                height: 17.2em;
+            }
+        }
+    }
+
+
+    .section-carrera {
+
+        iframe {
+            height: 27em;
+        }
+
+        a {
+            width: 5em;
+            height: 55px;
+            margin: 15px;
+            font-size: 1em;
+        }
+    }
+
+    .section-records {
+
+        a {
+            width: 5em;
+            height: 55px;
+            margin: 15px;
+            font-size: 1em;
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*footer.html*/
+    /*----------*/
+    footer {
+
+        .footer-grid {
+            @include grid("h3" "ln" "cl" "jyc" "ff" "pest" "fit" "hb" "bin" "live" "pf", center, none, center, none);
+
+            .nike-grid {
+
+                .nike {
+                    height: 7em;
+                }
+            }
+
+            .clear-grid {
+
+                .clear {
+
+                    height: 7em;
+                }
+            }
+
+            .free-grid {
+
+                .free {
+                    height: 8em;
+                }
+            }
+
+            .herba-grid {
+
+                .herbalife {
+                    height: 7em;
+                }
+            }
+
+            .bin-grid {
+
+                .binance {
+                    margin-top: 15px;
+                    height: 6.5em;
+                }
+            }
+        }
+    }
+}
