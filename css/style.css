@@ -922,18 +922,13 @@ footer {
 @media (max-width: 320px) {
   /*-----------*/
   /*index.html*/
-  /*---------*/
   .section-bio .p-bio-records {
     font-size: 1em; }
   .section-bio div img {
     height: 14em; }
-  .section-carrera .p-bio-records {
-    font-size: 1em; }
   .section-carrera iframe {
     height: 23em;
     width: 15em; }
-  .section-records .p-bio-records {
-    font-size: 1em; }
   .section-records div img {
     height: 22em;
     width: 15em; }
@@ -941,42 +936,54 @@ footer {
   /*-------------*/
   /*carrera.html*/
   /*-----------*/
-  .iframe-gral {
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
     width: 85%;
     height: 23em; }
-  .p-gral {
+  .section-gral .bloque .p-gral, .section-sass .bloque .p-gral, .bloque-sass .bloque .p-gral {
     margin-top: 0; }
   /*------------------------------------------------*/
   /*-------------*/
   /*records.html*/
   /*-----------*/
-  .img-sporting,
-  .img-real {
+  .section-cl .div-img .img-sporting {
     width: 17em;
     height: 12em; }
-  .img-manchester,
-  .img-juve,
-  .img-portugal {
+  .section-cl .div-img .img-manchester {
+    width: 17em;
+    height: 11em; }
+  .section-cl .div-img .img-real {
+    width: 17em;
+    height: 12em; }
+  .section-cl .div-img .img-juve {
+    width: 17em;
+    height: 11em; }
+  .section-cl .div-img .img-portugal {
     width: 17em;
     height: 11em; }
   /*------------------------------------------------*/
   /*------------*/
   /*tienda.html*/
   /*----------*/
-  .h2 {
+  .section-gral .h2, .section-sass .h2, .bloque-sass .h2 {
     font-size: 1.3em; }
   /*------------------------------------------------*/
-  /*------------*/
-  /*tienda.html*/
-  /*----------*/
-  .img-madrid,
-  .img-funchal,
-  .img-eeuu,
-  .img-marruecos {
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid .h2-grid {
+    font-size: 0.7em; }
+  .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
     width: 17em;
     height: 14em; }
-  .img-lisboa {
+  .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
     width: 17em;
-    height: 8em; }
-  .h2-grid {
-    font-size: 0.7em; } }
+    height: 14em; }
+  .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+    width: 17em;
+    height: 14em; }
+  .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+    width: 17em;
+    height: 14em; }
+  .grid .hotel-5 .img-lisboa {
+    width: 17em;
+    height: 8em; } }
