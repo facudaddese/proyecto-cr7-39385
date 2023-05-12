@@ -1,0 +1,67 @@
+@media (max-width: 426px) {
+
+    /*-------------*/
+    /*carrera.html*/
+    /*-----------*/
+    main {
+
+        h1 {
+            font-size: 27px;
+        }
+
+        .section-gral {
+
+            .h3-gral {
+                font-size: 15px;
+                padding-top: 10px;
+            }
+
+            .bloque {
+
+                .iframe-gral {
+                    height: 30em;
+                    width: 83%;
+                }
+
+                .p-gral {
+                    margin-top: 0;
+                }
+
+                .h3-subtitulos {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*tienda.html*/
+    /*----------*/
+    .section-gral {
+
+        .h2 {
+            text-align: center;
+        }
+
+        .box {
+
+            .carrusel {
+
+                .elementos {
+                    height: 24em;
+
+                    img {
+                        width: 8em;
+                        height: 8em;
+                    }
+
+                    .h4-grid {
+                        font-size: 0.7em;
+                    }
+                }
+            }
+        }
+    }
+}

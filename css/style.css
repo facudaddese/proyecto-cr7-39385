@@ -796,6 +796,36 @@ footer {
       margin-top: 15px;
       height: 6.5em; } }
 
+@media (max-width: 426px) {
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  main h1 {
+    font-size: 27px; }
+  main .section-gral .h3-gral, main .section-sass .h3-gral, main .bloque-sass .h3-gral {
+    font-size: 15px;
+    padding-top: 10px; }
+  main .section-gral .bloque .iframe-gral, main .section-sass .bloque .iframe-gral, main .bloque-sass .bloque .iframe-gral {
+    height: 30em;
+    width: 83%; }
+  main .section-gral .bloque .p-gral, main .section-sass .bloque .p-gral, main .bloque-sass .bloque .p-gral {
+    margin-top: 0; }
+  main .section-gral .bloque .h3-subtitulos, main .section-sass .bloque .h3-subtitulos, main .bloque-sass .bloque .h3-subtitulos {
+    padding-top: 10px; }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .h2, .section-sass .h2, .bloque-sass .h2 {
+    text-align: center; }
+  .section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
+    height: 24em; }
+    .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+      width: 8em;
+      height: 8em; }
+    .section-gral .box .carrusel .elementos .h4-grid, .section-sass .box .carrusel .elementos .h4-grid, .bloque-sass .box .carrusel .elementos .h4-grid {
+      font-size: 0.7em; } }
+
 @media (max-width: 320px) {
   /*-----------*/
   /*index.html*/
