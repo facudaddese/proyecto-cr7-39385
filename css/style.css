@@ -665,15 +665,19 @@ footer {
   /*-------------*/
   /*records.html*/
   /*-----------*/
-  .img-sporting {
+  .section-cl .div-img .img-sporting {
     width: 38em;
     height: 25em; }
-  .img-manchester,
-  .img-real,
-  .img-juve {
+  .section-cl .div-img .img-manchester {
     width: 38em;
     height: 23em; }
-  .img-portugal {
+  .section-cl .div-img .img-real {
+    width: 38em;
+    height: 23em; }
+  .section-cl .div-img .img-juve {
+    width: 38em;
+    height: 23em; }
+  .section-cl .div-img .img-portugal {
     width: 40em;
     height: 22em; }
   /*------------------------------------------------*/

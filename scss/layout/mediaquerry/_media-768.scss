@@ -64,21 +64,35 @@
     /*-------------*/
     /*records.html*/
     /*-----------*/
-    .img-sporting {
-        width: 38em;
-        height: 25em;
-    }
+    .section-cl {
 
-    .img-manchester,
-    .img-real,
-    .img-juve {
-        width: 38em;
-        height: 23em;
-    }
+        .div-img {
 
-    .img-portugal {
-        width: 40em;
-        height: 22em;
+            .img-sporting {
+                width: 38em;
+                height: 25em;
+            }
+
+            .img-manchester {
+                width: 38em;
+                height: 23em;
+            }
+
+            .img-real {
+                width: 38em;
+                height: 23em;
+            }
+
+            .img-juve {
+                width: 38em;
+                height: 23em;
+            }
+
+            .img-portugal {
+                width: 40em;
+                height: 22em;
+            }
+        }
     }
 
     /*------------------------------------------------*/
