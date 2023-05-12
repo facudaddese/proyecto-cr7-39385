@@ -641,11 +641,15 @@ footer {
   /*---------*/
   .section-bio div img {
     height: 21em; }
-  .section-records div img {
-    height: 33em; }
   .section-carrera iframe {
     height: 35em; }
-  .section-carrera a,
+  .section-carrera a {
+    width: 6em;
+    height: 50px;
+    padding: 5px;
+    margin: 15px; }
+  .section-records div img {
+    height: 33em; }
   .section-records a {
     width: 6em;
     height: 50px;
@@ -655,7 +659,7 @@ footer {
   /*-------------*/
   /*carrera.html*/
   /*-----------*/
-  .iframe-gral {
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
     width: 91%; }
   /*------------------------------------------------*/
   /*-------------*/
@@ -676,11 +680,11 @@ footer {
   /*------------*/
   /*tienda.html*/
   /*----------*/
-  .elementos {
+  .section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
     height: 26.5em; }
-  .elementos img {
-    width: 12em;
-    height: 12em; } }
+    .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+      width: 12em;
+      height: 12em; } }
 
 @media (max-width: 320px) {
   /*-----------*/

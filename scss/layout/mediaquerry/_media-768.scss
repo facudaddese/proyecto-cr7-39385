@@ -3,24 +3,45 @@
     /*-----------*/
     /*index.html*/
     /*---------*/
-    .section-bio div img {
-        height: 21em;
+    .section-bio {
+
+        div {
+
+            img {
+                height: 21em;
+            }
+        }
     }
 
-    .section-records div img {
-        height: 33em;
+    .section-carrera {
+
+        iframe {
+            height: 35em;
+        }
+
+        a {
+            width: 6em;
+            height: 50px;
+            padding: 5px;
+            margin: 15px;
+        }
     }
 
-    .section-carrera iframe {
-        height: 35em;
-    }
+    .section-records {
 
-    .section-carrera a,
-    .section-records a {
-        width: 6em;
-        height: 50px;
-        padding: 5px;
-        margin: 15px;
+        div {
+
+            img {
+                height: 33em;
+            }
+        }
+
+        a {
+            width: 6em;
+            height: 50px;
+            padding: 5px;
+            margin: 15px;
+        }
     }
 
     /*------------------------------------------------*/
@@ -28,8 +49,14 @@
     /*-------------*/
     /*carrera.html*/
     /*-----------*/
-    .iframe-gral {
-        width: 91%;
+    .section-gral {
+
+        .bloque {
+
+            .iframe-gral {
+                width: 91%;
+            }
+        }
     }
 
     /*------------------------------------------------*/
@@ -59,12 +86,21 @@
     /*------------*/
     /*tienda.html*/
     /*----------*/
-    .elementos {
-        height: 26.5em;
-    }
+    .section-gral {
 
-    .elementos img {
-        width: 12em;
-        height: 12em;
+        .box {
+
+            .carrusel {
+
+                .elementos {
+                    height: 26.5em;
+
+                    img {
+                        width: 12em;
+                        height: 12em;
+                    }
+                }
+            }
+        }
     }
 }
