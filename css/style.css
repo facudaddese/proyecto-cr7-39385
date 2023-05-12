@@ -777,14 +777,22 @@ footer {
   /*---------*/
   .section-bio div img {
     height: 17.2em; }
-  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
-    width: 22em; }
+  .section-carrera a {
+    width: 5.5em;
+    height: 55px;
+    margin: 15px;
+    font-size: 1em; }
   .section-records a {
     width: 5.5em;
     height: 55px;
     margin: 15px;
-    font-size: 1em;
-    text-align: center; }
+    font-size: 1em; }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 22em; }
   /*------------------------------------------------*/
   /*------------*/
   /*footer.html*/

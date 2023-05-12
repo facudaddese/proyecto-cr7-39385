@@ -23,13 +23,13 @@
         }
     }
 
-    .section-gral {
+    .section-carrera {
 
-        .bloque {
-
-            .iframe-gral {
-                width: 22em;
-            }
+        a {
+            width: 5.5em;
+            height: 55px;
+            margin: 15px;
+            font-size: 1em;
         }
     }
 
@@ -40,7 +40,22 @@
             height: 55px;
             margin: 15px;
             font-size: 1em;
-            text-align: center;
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*tienda.html*/
+    /*----------*/
+
+    .section-gral {
+
+        .bloque {
+
+            .iframe-gral {
+                width: 22em;
+            }
         }
     }
 
