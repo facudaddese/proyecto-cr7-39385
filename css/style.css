@@ -690,6 +690,30 @@ footer {
       width: 12em;
       height: 12em; } }
 
+@media (max-width: 690px) {
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid .h1-grid {
+    font-size: 1.5em; }
+  .grid .h2-grid {
+    font-size: 0.9em; }
+  .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
+    width: 23em;
+    height: 18em; }
+  .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
+    width: 23em;
+    height: 18em; }
+  .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+    width: 23em;
+    height: 18em; }
+  .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+    width: 23em;
+    height: 18em; }
+  .grid .hotel-5 .img-lisboa {
+    width: 23em;
+    height: 10em; } }
+
 @media (max-width: 320px) {
   /*-----------*/
   /*index.html*/
