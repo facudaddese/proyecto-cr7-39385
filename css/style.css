@@ -720,6 +720,12 @@ footer {
 
 @media (max-width: 640px) {
   /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 35em; }
+  /*------------------------------------------------*/
+  /*-------------*/
   /*records.html*/
   /*-----------*/
   .section-cl .div-img .img-sporting {
@@ -750,7 +756,13 @@ footer {
   /*---------*/
   .section-records div img {
     height: 32em;
-    width: 22em; } }
+    width: 22em; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 28em; } }
 
 @media (max-width: 450px) {
   /*------------*/
@@ -765,18 +777,14 @@ footer {
   /*---------*/
   .section-bio div img {
     height: 17.2em; }
-  .section-carrera iframe {
-    height: 27em; }
-  .section-carrera a {
-    width: 5.5em;
-    height: 55px;
-    margin: 15px;
-    font-size: 1em; }
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 22em; }
   .section-records a {
     width: 5.5em;
     height: 55px;
     margin: 15px;
-    font-size: 1em; }
+    font-size: 1em;
+    text-align: center; }
   /*------------------------------------------------*/
   /*------------*/
   /*footer.html*/
