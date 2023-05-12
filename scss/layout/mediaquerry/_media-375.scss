@@ -1,0 +1,241 @@
+@media (max-width: 376px) {
+
+    /*-----------*/
+    /*index.html*/
+    /*---------*/
+    header {
+
+        nav {
+
+            div {
+
+                img {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+    .section-bio {
+
+        .p-bio-records {
+            font-size: 1em;
+        }
+
+        div {
+
+            img {
+                height: 15em;
+            }
+        }
+    }
+
+    .section-carrera {
+
+        iframe {
+            height: 28em;
+            width: 19.5em;
+        }
+    }
+
+    .section-records {
+
+        div {
+
+            img {
+                height: 27em;
+                width: 18em;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*carrera.html*/
+    /*-----------*/
+    .section-gral {
+
+        .bloque {
+
+            .iframe-gral {
+                width: 80%;
+                height: 27em;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-------------*/
+    /*records.html*/
+    /*-----------*/
+    .section-cl {
+
+        .div-img {
+
+            .img-sporting {
+                width: 20.5em;
+                height: 14em;
+            }
+
+            .img-manchester {
+                width: 20.5em;
+                height: 12em;
+            }
+
+            .img-real {
+                width: 20.5em;
+                height: 12em;
+            }
+
+            .img-juve {
+                width: 20.5em;
+                height: 12em;
+            }
+
+            .img-portugal {
+                width: 20.5em;
+                height: 12em;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*tienda.html*/
+    /*----------*/
+    .section-gral {
+
+        .box {
+
+            .carrusel {
+
+                .elementos {
+
+                    img {
+                        width: 7.5em;
+                    }
+                }
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*-----------*/
+    /*hotel.html*/
+    /*---------*/
+    .grid {
+
+        .h2-grid {
+            font-size: 0.8em;
+        }
+
+        .hotel-1 {
+
+            .img-madrid {
+                width: 20em;
+                height: 15em;
+            }
+        }
+
+        .hotel-2 {
+
+            .img-funchal {
+                width: 20em;
+                height: 15em;
+            }
+        }
+
+        .hotel-3 {
+
+            .img-eeuu {
+                width: 20em;
+                height: 15em;
+            }
+        }
+
+        .hotel-4 {
+
+            .img-marruecos {
+                width: 20em;
+                height: 15em;
+            }
+        }
+
+        .hotel-5 {
+
+            .img-lisboa {
+                width: 20em;
+                height: 8em;
+            }
+        }
+    }
+
+    /*------------------------------------------------*/
+
+    /*------------*/
+    /*footer.html*/
+    /*----------*/
+    footer {
+
+        .footer-grid {
+
+            .nike-grid {
+
+                .nike {
+                    width: 11em;
+                    height: 7em;
+                }
+            }
+
+            .clear-grid {
+
+                .clear {
+                    width: 11em;
+                    height: 7em;
+                }
+            }
+
+            .free-grid {
+
+                .free {
+                    width: 11em;
+                    height: 7em;
+                }
+            }
+
+            .pestana-grid {
+
+                .pestana {
+                    width: 9em;
+                    height: 8em;
+                }
+            }
+
+            .fit-grid {
+
+                .fitnes {
+                    width: 9em;
+                    height: 8em;
+                }
+            }
+
+            .bin-grid {
+
+                .binance {
+                    width: 13em;
+                }
+            }
+
+            .live-grid {
+
+                .live {
+                    width: 13em;
+                }
+            }
+        }
+    }
+}
