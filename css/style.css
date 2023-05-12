@@ -740,6 +740,14 @@ footer {
     font-size: 0.8em;
     width: 80%; } }
 
+@media (max-width: 530px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-records div img {
+    height: 32em;
+    width: 22em; } }
+
 @media (max-width: 320px) {
   /*-----------*/
   /*index.html*/
