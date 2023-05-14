@@ -763,9 +763,9 @@ footer {
   /*-----------*/
   /*index.html*/
   /*---------*/
-  .section-records div img {
-    height: 32em;
-    width: 22em; }
+  .section-bio div img {
+    height: 22em;
+    width: 30em; }
   /*------------------------------------------------*/
   /*-------------*/
   /*carrera.html*/
@@ -791,7 +791,8 @@ footer {
   /*index.html*/
   /*---------*/
   .section-bio div img {
-    height: 17.2em; }
+    height: 18em;
+    width: 25em; }
   .section-carrera a {
     width: 5.5em;
     height: 55px;
@@ -838,6 +839,13 @@ footer {
       height: 6.5em; } }
 
 @media (max-width: 426px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 17em;
+    width: 22em; }
+  /*------------------------------------------------*/
   /*-------------*/
   /*carrera.html*/
   /*-----------*/
