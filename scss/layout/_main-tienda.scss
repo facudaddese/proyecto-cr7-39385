@@ -26,6 +26,11 @@
                 margin: 35px;
                 text-align: center;
 
+                &:hover{
+                    transform: scale(1.1);
+                    height: 28em;
+                }
+
                 img {
                     width: 16em;
                     height: 15.6em;
