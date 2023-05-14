@@ -259,14 +259,14 @@ section .h3-gral {
       height: 31.2em;
       margin: 0 25px 35px 35px; }
       .section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
-        border: 2px solid #ffffff;
+        border: 2px solid #000000;
         height: 29em;
         margin: 35px;
         text-align: center; }
         .section-gral .box .carrusel .elementos:hover, .section-sass .box .carrusel .elementos:hover, .bloque-sass .box .carrusel .elementos:hover {
           transform: scale(1.1);
           height: 28em;
-          border: 2px solid #000000; }
+          border: 2px solid #ffffff; }
         .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
           width: 16em;
           height: 15.6em;
