@@ -771,7 +771,13 @@ footer {
   /*carrera.html*/
   /*-----------*/
   .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
-    width: 28em; } }
+    width: 28em; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records-html*/
+  /*-----------*/
+  .section-cl .div-titulos h3 {
+    font-size: 1.2em; } }
 
 @media (max-width: 450px) {
   /*------------*/
@@ -802,6 +808,12 @@ footer {
   /*----------*/
   .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
     width: 22em; }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records-html*/
+  /*-----------*/
+  .section-cl .div-titulos h3 {
+    font-size: 1em; }
   /*------------------------------------------------*/
   /*------------*/
   /*footer.html*/
@@ -982,21 +994,23 @@ footer {
   /*-------------*/
   /*records.html*/
   /*-----------*/
+  .section-cl .div-titulos h3 {
+    font-size: 0.8em; }
   .section-cl .div-img .img-sporting {
     width: 17em;
-    height: 12em; }
+    height: 11em; }
   .section-cl .div-img .img-manchester {
     width: 17em;
-    height: 11em; }
+    height: 10em; }
   .section-cl .div-img .img-real {
     width: 17em;
-    height: 12em; }
+    height: 11em; }
   .section-cl .div-img .img-juve {
     width: 17em;
-    height: 11em; }
+    height: 10em; }
   .section-cl .div-img .img-portugal {
     width: 17em;
-    height: 11em; }
+    height: 10em; }
   /*------------------------------------------------*/
   /*------------*/
   /*tienda.html*/
