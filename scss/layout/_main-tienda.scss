@@ -14,6 +14,15 @@
         margin: auto;
         overflow: auto;
 
+        &::-webkit-scrollbar {
+            background: #4c4949bc;
+            border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar:hover {
+            background: #2a2828bc;
+        }
+
         .carrusel {
             @include flex(nowrap, none, none, center);
             background-color: $background-color;
@@ -26,9 +35,10 @@
                 margin: 35px;
                 text-align: center;
 
-                &:hover{
+                &:hover {
                     transform: scale(1.1);
                     height: 28em;
+                    border: 2px solid $background-color;
                 }
 
                 img {

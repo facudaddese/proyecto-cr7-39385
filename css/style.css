@@ -244,6 +244,11 @@ section .h3-gral {
     align-items: none;
     margin: auto;
     overflow: auto; }
+    .section-gral .box::-webkit-scrollbar, .section-sass .box::-webkit-scrollbar, .bloque-sass .box::-webkit-scrollbar {
+      background: #4c4949bc;
+      border-radius: 10px; }
+    .section-gral .box::-webkit-scrollbar:hover, .section-sass .box::-webkit-scrollbar:hover, .bloque-sass .box::-webkit-scrollbar:hover {
+      background: #2a2828bc; }
     .section-gral .box .carrusel, .section-sass .box .carrusel, .bloque-sass .box .carrusel {
       display: flex;
       flex-wrap: nowrap;
@@ -260,7 +265,8 @@ section .h3-gral {
         text-align: center; }
         .section-gral .box .carrusel .elementos:hover, .section-sass .box .carrusel .elementos:hover, .bloque-sass .box .carrusel .elementos:hover {
           transform: scale(1.1);
-          height: 28em; }
+          height: 28em;
+          border: 2px solid #000000; }
         .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
           width: 16em;
           height: 15.6em;
