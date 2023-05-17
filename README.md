@@ -13,6 +13,9 @@
 - Carrusel de imagenes.
 - Un pie de pagina realizado con GRID.
 
+### IDE
+- Visual Studio Code
+
 ### Tecnologias utilizadas
 - HTML
 - CSS
