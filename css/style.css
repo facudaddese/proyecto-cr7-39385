@@ -887,7 +887,7 @@ footer {
   .section-bio .p-bio-records {
     font-size: 1em; }
   .section-bio div img {
-    height: 15em; }
+    height: 16em; }
   .section-carrera iframe {
     height: 28em;
     width: 19.5em; }
@@ -982,7 +982,8 @@ footer {
   .section-bio .p-bio-records {
     font-size: 1em; }
   .section-bio div img {
-    height: 14em; }
+    height: 14em;
+    width: 19em; }
   .section-carrera iframe {
     height: 23em;
     width: 15em; }
