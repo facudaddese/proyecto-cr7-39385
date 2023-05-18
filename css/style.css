@@ -558,19 +558,19 @@ footer {
   /*-----------*/
   /*hotel.html*/
   /*---------*/
-  .section-grid .hotel-1 .img-madrid, .section-grid .grid .hotel-2 .img-madrid, .grid .section-grid .hotel-2 .img-madrid, .section-grid .grid .hotel-3 .img-madrid, .grid .section-grid .hotel-3 .img-madrid, .section-grid .grid .hotel-4 .img-madrid, .grid .section-grid .hotel-4 .img-madrid, .section-grid .grid .hotel-5 .img-madrid, .grid .section-grid .hotel-5 .img-madrid {
+  .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
     height: 20em;
     width: 29em; }
-  .section-grid .hotel-2 .img-funchal, .section-grid .grid .hotel-3 .img-funchal, .grid .section-grid .hotel-3 .img-funchal, .section-grid .grid .hotel-4 .img-funchal, .grid .section-grid .hotel-4 .img-funchal, .section-grid .grid .hotel-5 .img-funchal, .grid .section-grid .hotel-5 .img-funchal {
+  .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
     height: 20em;
     width: 29em; }
-  .section-grid .hotel-3 .img-eeuu, .section-grid .grid .hotel-4 .img-eeuu, .grid .section-grid .hotel-4 .img-eeuu, .section-grid .grid .hotel-5 .img-eeuu, .grid .section-grid .hotel-5 .img-eeuu {
+  .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
     height: 20em;
     width: 29em; }
-  .section-grid .hotel-4 .img-marruecos, .section-grid .grid .hotel-5 .img-marruecos, .grid .section-grid .hotel-5 .img-marruecos {
+  .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
     height: 20em;
     width: 29em; }
-  .section-grid .hotel-5 .img-lisboa {
+  .grid .hotel-5 .img-lisboa {
     height: 20em;
     width: 59.5em; } }
 
