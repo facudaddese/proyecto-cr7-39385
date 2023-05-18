@@ -24,4 +24,4 @@
 - GIT
 
 ### Autor
-> Mi nombre es Facundo D'Addese, tengo 23 años y estoy estudiando para ser un FrontEnd Developer y la Licenciatura en Sistemas. Dejo mi perfil de [LinkedIn](http://www.linkedin.com/in/facundo-d-addese-797b241aa/ "LinkedIn") para que puedan conocerme mejor.
+> Mi nombre es Facundo D'Addese, tengo 23 años y estoy estudiando para ser FrontEnd Developer y la Licenciatura en Sistemas. Dejo mi perfil de [LinkedIn](http://www.linkedin.com/in/facundo-d-addese-797b241aa/ "LinkedIn") para que puedan conocerme mejor.
