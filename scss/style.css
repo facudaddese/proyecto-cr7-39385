@@ -1,0 +1,1276 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav div img {
+  height: 3.75em;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+header .ul-header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+header .ul-header li {
+  list-style: none;
+  margin: 10px;
+}
+header .ul-header li a {
+  text-decoration: none;
+  color: #959291;
+  padding: 5px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+header .ul-header li a:hover {
+  color: #ffffff;
+}
+
+main {
+  background: #000000;
+}
+main h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-top: 27px;
+  color: #ffffff;
+  grid-area: h1;
+  font-size: 32px;
+}
+
+.section-bio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: none;
+  align-items: none;
+  margin-top: 20px;
+}
+.section-bio .p-bio-records {
+  color: #959291;
+  margin: 15px 33px;
+  padding: 5px;
+  font-size: 17px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  line-height: 30px;
+}
+.section-bio div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: none;
+  align-items: none;
+}
+.section-bio div img {
+  height: 28em;
+  width: 100%;
+  padding: 25px;
+  margin: 10px;
+}
+
+.section-carrera {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: none;
+  align-items: center;
+  border-top: 1px solid #ffffff;
+}
+.section-carrera a {
+  width: 7em;
+  height: 74px;
+  border-radius: 10%;
+  background: #959291;
+  align-self: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  padding: 16px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  order: 2;
+  border: 1px solid #ffffff;
+}
+.section-carrera a:hover {
+  box-shadow: 1px 3px 15px #959291;
+}
+.section-carrera iframe {
+  margin-bottom: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.section-records {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: none;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.section-records .p-bio-records {
+  color: #959291;
+  margin: 15px 33px;
+  padding: 5px;
+  font-size: 17px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  line-height: 30px;
+}
+.section-records a {
+  width: 7em;
+  height: 74px;
+  border-radius: 10%;
+  background: #959291;
+  align-self: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  padding: 16px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  order: 2;
+  border: 1px solid #ffffff;
+}
+.section-records a:hover {
+  box-shadow: 1px 3px 15px #959291;
+}
+.section-records div img {
+  margin: 20px 0 30px 0;
+  height: 50em;
+  width: 100%;
+}
+
+.section-gral, .bloque-sass, .section-sass {
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  flex-direction: none;
+  align-items: none;
+}
+.section-gral .h3-gral, .bloque-sass .h3-gral, .section-sass .h3-gral {
+  color: #ffffff;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  margin: 25px;
+  padding-left: 11px;
+  font-size: 20px;
+}
+.section-gral .bloque, .bloque-sass .bloque, .section-sass .bloque {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: none;
+  align-items: none;
+}
+.section-gral .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral, .section-sass .bloque .iframe-gral {
+  margin: 20px 10px;
+  justify-self: center;
+}
+.section-gral .bloque .p-gral, .bloque-sass .bloque .p-gral, .section-sass .bloque .p-gral {
+  color: #959291;
+  line-height: 25px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  margin: 15px 30px;
+  padding: 5px;
+  font-size: 1em;
+  line-height: 30px;
+}
+
+.bloque-sass .h3-subtitulos {
+  color: #ffffff;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  margin: 15px;
+  font-size: 20px;
+}
+
+section .h3-gral {
+  color: #ffffff;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  margin: 25px;
+  padding-left: 11px;
+  font-size: 20px;
+}
+
+.section-cl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+}
+.section-cl .div-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: none;
+  align-items: none;
+  margin: 5px;
+}
+.section-cl .div-img .img-sporting,
+.section-cl .div-img .img-manchester {
+  padding: 5px;
+  height: 28em;
+  width: 100%;
+}
+.section-cl .div-img .img-real,
+.section-cl .div-img .img-juve,
+.section-cl .div-img .img-portugal {
+  padding: 5px;
+  height: 31.2em;
+  width: 100%;
+}
+.section-cl .ul-titulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  flex-direction: column;
+  align-items: center;
+  color: #959291;
+  margin-bottom: 25px;
+  gap: 8px;
+}
+.section-cl .div-titulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: none;
+  align-items: none;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  color: #ffffff;
+  margin: 15px;
+}
+
+.section-gral, .section-sass, .bloque-sass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: none;
+  flex-direction: none;
+  align-items: none;
+  border-bottom: 1px solid #ffffff;
+}
+.section-gral .h2, .section-sass .h2, .bloque-sass .h2 {
+  font-family: "Oswald", sans-serif;
+  padding: 40px;
+  color: #ffffff;
+  text-align: left;
+}
+.section-gral .box, .section-sass .box, .bloque-sass .box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: none;
+  flex-direction: column;
+  align-items: none;
+  margin: auto;
+  overflow: auto;
+}
+.section-gral .box::-webkit-scrollbar, .section-sass .box::-webkit-scrollbar, .bloque-sass .box::-webkit-scrollbar {
+  background: rgba(76, 73, 73, 0.737254902);
+  border-radius: 10px;
+}
+.section-gral .box::-webkit-scrollbar:hover, .section-sass .box::-webkit-scrollbar:hover, .bloque-sass .box::-webkit-scrollbar:hover {
+  background: rgba(42, 40, 40, 0.737254902);
+}
+.section-gral .box .carrusel, .section-sass .box .carrusel, .bloque-sass .box .carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: none;
+  flex-direction: none;
+  align-items: center;
+  background-color: #000000;
+  height: 31.2em;
+  margin: 0 25px 35px 35px;
+}
+.section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
+  border: 2px solid #000000;
+  height: 29em;
+  margin: 35px;
+  text-align: center;
+}
+.section-gral .box .carrusel .elementos:hover, .section-sass .box .carrusel .elementos:hover, .bloque-sass .box .carrusel .elementos:hover {
+  transform: scale(1.1);
+  height: 28em;
+  border: 2px solid #ffffff;
+}
+.section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+  width: 16em;
+  height: 15.6em;
+  padding: 5px;
+}
+.section-gral .box .carrusel .elementos h4, .section-gral .box .carrusel .elementos h5, .section-sass .box .carrusel .elementos h4, .section-sass .box .carrusel .elementos h5, .bloque-sass .box .carrusel .elementos h4, .bloque-sass .box .carrusel .elementos h5 {
+  color: #959291;
+  line-height: 25px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  text-align: center;
+  margin: 25px;
+  padding: 5px;
+  font-size: 15px;
+}
+.section-gral .box .carrusel .elementos .boton, .section-sass .box .carrusel .elementos .boton, .bloque-sass .box .carrusel .elementos .boton {
+  text-align: center;
+}
+.section-gral .box .carrusel .elementos .boton .button, .section-sass .box .carrusel .elementos .boton .button, .bloque-sass .box .carrusel .elementos .boton .button {
+  background-color: #000000;
+  line-height: 25px;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  padding: 5px;
+  border-radius: 100px;
+  outline: 1px solid #ffffff;
+  color: #959291;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "h1 h1 h1 h1" "h2 h2 h2 h2" "rm rm fc fc" "eu eu ma ma" "li li li li";
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 1.5em;
+  border-bottom: 1px solid #ffffff;
+}
+.grid .h1-grid {
+  font-family: "Oswald", sans-serif;
+  padding-top: 27px;
+  color: #ffffff;
+  grid-area: h1;
+  font-size: 2em;
+  text-align: center;
+}
+.grid .h2-grid {
+  color: #ffffff;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+  margin: 35px;
+  padding-left: 5px;
+  font-size: 15px;
+  justify-self: center;
+  align-items: center;
+  grid-area: h2;
+  text-align: center;
+}
+.grid .hotel-1, .grid .hotel-2, .grid .hotel-3, .grid .hotel-4, .grid .hotel-5 {
+  grid-area: rm;
+  justify-self: center;
+  align-self: center;
+}
+.grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
+  height: 27em;
+  width: 35em;
+}
+.grid .hotel-2, .grid .hotel-3, .grid .hotel-4, .grid .hotel-5 {
+  grid-area: fc;
+  /*justify-self: center;
+  align-self: center;*/
+}
+.grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
+  height: 27em;
+  width: 35em;
+}
+.grid .hotel-3, .grid .hotel-4, .grid .hotel-5 {
+  grid-area: eu;
+  /*justify-self: center;
+  align-self: center;*/
+}
+.grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+  height: 27em;
+  width: 35em;
+}
+.grid .hotel-4, .grid .hotel-5 {
+  grid-area: ma;
+  /*justify-self: center;
+  align-self: center;*/
+}
+.grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+  height: 27em;
+  width: 35em;
+}
+.grid .hotel-5 {
+  grid-area: li;
+  /*justify-self: center;
+  align-self: center;*/
+}
+.grid .hotel-5 .img-lisboa {
+  height: 25em;
+  width: 71.5em;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #000000;
+  z-index: 10;
+}
+footer .footer-grid {
+  background-color: #000000;
+  display: grid;
+  grid-template-areas: "h3 h3 h3" "ln cl jyc" "ff pest fit" "hb bin live" "pf pf pf";
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 2em;
+}
+footer .footer-grid .nike-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: ln;
+}
+footer .footer-grid .nike-grid .nike {
+  width: 14em;
+  height: 8em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .clear-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: cl;
+}
+footer .footer-grid .clear-grid .clear {
+  width: 14em;
+  height: 8em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .jyco-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: jyc;
+}
+footer .footer-grid .jyco-grid .jyco {
+  width: 9em;
+  height: 9em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .free-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: ff;
+}
+footer .footer-grid .free-grid .free {
+  width: 15em;
+  height: 11em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .pestana-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: pest;
+}
+footer .footer-grid .pestana-grid .pestana {
+  width: 11em;
+  height: 11em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .fit-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: fit;
+}
+footer .footer-grid .fit-grid .fitnes {
+  width: 10em;
+  height: 8em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .herba-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: hb;
+}
+footer .footer-grid .herba-grid .herbalife {
+  width: 16em;
+  height: 9em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .bin-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: bin;
+}
+footer .footer-grid .bin-grid .binance {
+  width: 15em;
+  height: 7em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer .footer-grid .live-grid {
+  justify-self: center;
+  align-self: center;
+  grid-area: live;
+}
+footer .footer-grid .live-grid .live {
+  width: 15em;
+  height: 10em;
+  opacity: 30%;
+  padding: 10px;
+}
+footer h3 {
+  margin: 50px 0;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #959291;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  grid-area: h3;
+  font-size: 18px;
+}
+footer p {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #959291;
+  grid-area: pf;
+}
+
+@media (max-width: 1150px) {
+  /*------------*/
+  /*header.html*/
+  /*----------*/
+  .navbar .container-fluid button {
+    padding: 5px;
+    outline: 1px solid #ffffff;
+  }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  main h1 {
+    font-size: 32px;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
+    font-size: 19px;
+  }
+  .bloque .h3-subtitulos {
+    font-size: 19px;
+  }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .section-grid .hotel-1 .img-madrid, .section-grid .grid .hotel-2 .img-madrid, .grid .section-grid .hotel-2 .img-madrid, .section-grid .grid .hotel-3 .img-madrid, .grid .section-grid .hotel-3 .img-madrid, .section-grid .grid .hotel-4 .img-madrid, .grid .section-grid .hotel-4 .img-madrid, .section-grid .grid .hotel-5 .img-madrid, .grid .section-grid .hotel-5 .img-madrid {
+    height: 20em;
+    width: 29em;
+  }
+  .section-grid .hotel-2 .img-funchal, .section-grid .grid .hotel-3 .img-funchal, .grid .section-grid .hotel-3 .img-funchal, .section-grid .grid .hotel-4 .img-funchal, .grid .section-grid .hotel-4 .img-funchal, .section-grid .grid .hotel-5 .img-funchal, .grid .section-grid .hotel-5 .img-funchal {
+    height: 20em;
+    width: 29em;
+  }
+  .section-grid .hotel-3 .img-eeuu, .section-grid .grid .hotel-4 .img-eeuu, .grid .section-grid .hotel-4 .img-eeuu, .section-grid .grid .hotel-5 .img-eeuu, .grid .section-grid .hotel-5 .img-eeuu {
+    height: 20em;
+    width: 29em;
+  }
+  .section-grid .hotel-4 .img-marruecos, .section-grid .grid .hotel-5 .img-marruecos, .grid .section-grid .hotel-5 .img-marruecos {
+    height: 20em;
+    width: 29em;
+  }
+  .section-grid .hotel-5 .img-lisboa {
+    height: 20em;
+    width: 59.5em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*footer.html*/
+  /*----------*/
+  footer h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 27em;
+  }
+  .section-carrera iframe {
+    height: 36em;
+  }
+  .section-records div img {
+    height: 37em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 93%;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .section-cl .div-img .img-sporting {
+    width: 40em;
+    height: 25em;
+  }
+  .section-cl .div-img .img-manchester {
+    width: 43em;
+    height: 25em;
+  }
+  .section-cl .div-img .img-real {
+    width: 43em;
+    height: 25em;
+  }
+  .section-cl .div-img .img-juve {
+    width: 43em;
+    height: 25em;
+  }
+  .section-cl .div-img .img-portugal {
+    width: 46em;
+    height: 25em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
+    width: 16em;
+    height: 28em;
+  }
+  .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+    width: 15em;
+  }
+  .section-gral .box .carrusel .elementos h4, .section-sass .box .carrusel .elementos h4, .bloque-sass .box .carrusel .elementos h4, .section-gral .box .carrusel .elementos h5, .section-sass .box .carrusel .elementos h5, .bloque-sass .box .carrusel .elementos h5 {
+    font-size: 0.9em;
+  }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
+    height: 20em;
+    width: 29em;
+  }
+  .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
+    height: 20em;
+    width: 29em;
+  }
+  .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+    height: 20em;
+    width: 29em;
+  }
+  .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+    height: 20em;
+    width: 29em;
+  }
+  .grid .hotel-5 .img-lisboa {
+    height: 20em;
+    width: 59.5em;
+  }
+}
+@media (max-width: 950px) {
+  /*------------*/
+  /*header.html*/
+  /*----------*/
+  .ul-header {
+    flex-direction: column;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral, .section-sass, .bloque-sass {
+    justify-content: center;
+  }
+  .section-gral .h3-gral, .section-sass .h3-gral, .bloque-sass .h3-gral {
+    padding: 0;
+  }
+  .bloque-sass .h3-subtitulos {
+    padding: 0;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  section .h3-gral {
+    text-align: center;
+  }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid {
+    display: grid;
+    grid-template-areas: "h1" "h2" "rm" "fc" "eu" "ma" "li";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none;
+  }
+  .grid .h2-grid {
+    font-size: 0.8em;
+  }
+  .grid .hotel-5 .img-lisboa {
+    height: 16em;
+    width: 42em;
+    justify-self: center;
+    align-self: center;
+  }
+}
+@media (max-width: 800px) {
+  /*------------*/
+  /*footer.html*/
+  /*----------*/
+  footer .footer-grid {
+    display: grid;
+    grid-template-areas: "h3 h3" "ln cl" "jyc ff" "pest fit" "hb bin" "live live" "pf pf";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none;
+  }
+  footer .footer-grid .nike-grid .nike {
+    width: 12em;
+    height: 7em;
+  }
+  footer .footer-grid .clear-grid .clear {
+    width: 12em;
+    height: 7em;
+  }
+  footer .footer-grid .jyco-grid .jyco {
+    width: 8em;
+    height: 8em;
+  }
+  footer .footer-grid .free-grid .free {
+    width: 13em;
+    height: 8em;
+  }
+  footer .footer-grid .herba-grid .herbalife {
+    width: 13em;
+    height: 7em;
+  }
+  footer .footer-grid .bin-grid .binance {
+    width: 13em;
+    height: 6em;
+  }
+  footer .footer-grid .live-grid .live {
+    width: 13em;
+    height: 8em;
+  }
+}
+@media (max-width: 768px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 21em;
+  }
+  .section-carrera iframe {
+    height: 35em;
+  }
+  .section-carrera a {
+    width: 6em;
+    height: 50px;
+    padding: 5px;
+    margin: 15px;
+  }
+  .section-records div img {
+    height: 33em;
+  }
+  .section-records a {
+    width: 6em;
+    height: 50px;
+    padding: 5px;
+    margin: 15px;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 91%;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .section-cl .div-img .img-sporting {
+    width: 38em;
+    height: 25em;
+  }
+  .section-cl .div-img .img-manchester {
+    width: 38em;
+    height: 23em;
+  }
+  .section-cl .div-img .img-real {
+    width: 38em;
+    height: 23em;
+  }
+  .section-cl .div-img .img-juve {
+    width: 38em;
+    height: 23em;
+  }
+  .section-cl .div-img .img-portugal {
+    width: 40em;
+    height: 22em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
+    height: 26.5em;
+  }
+  .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+    width: 12em;
+    height: 12em;
+  }
+}
+@media (max-width: 690px) {
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid .h1-grid {
+    font-size: 1.5em;
+  }
+  .grid .h2-grid {
+    font-size: 0.9em;
+  }
+  .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
+    width: 23em;
+    height: 18em;
+  }
+  .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
+    width: 23em;
+    height: 18em;
+  }
+  .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+    width: 23em;
+    height: 18em;
+  }
+  .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+    width: 23em;
+    height: 18em;
+  }
+  .grid .hotel-5 .img-lisboa {
+    width: 23em;
+    height: 10em;
+  }
+}
+@media (max-width: 640px) {
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 35em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .section-cl .div-img .img-sporting {
+    width: 23.5em;
+    height: 15em;
+  }
+  .section-cl .div-img .img-manchester {
+    width: 23.5em;
+    height: 15em;
+  }
+  .section-cl .div-img .img-real {
+    width: 23.5em;
+    height: 15em;
+  }
+  .section-cl .div-img .img-juve {
+    width: 23.5em;
+    height: 15em;
+  }
+  .section-cl .div-img .img-portugal {
+    width: 23.5em;
+    height: 13em;
+  }
+  .section-cl .div-titulos {
+    font-size: 0.9em;
+    width: 86%;
+  }
+  .ul-titulos {
+    font-size: 0.8em;
+    width: 80%;
+  }
+}
+@media (max-width: 530px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 22em;
+    width: 30em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 28em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records-html*/
+  /*-----------*/
+  .section-cl .div-titulos h3 {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 450px) {
+  /*------------*/
+  /*header.html*/
+  /*----------*/
+  .ul-header {
+    margin: 0;
+    padding: 0;
+  }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 18em;
+    width: 25em;
+  }
+  .section-carrera a {
+    width: 5.5em;
+    height: 55px;
+    margin: 15px;
+    font-size: 1em;
+  }
+  .section-records a {
+    width: 5.5em;
+    height: 55px;
+    margin: 15px;
+    font-size: 1em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 22em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records-html*/
+  /*-----------*/
+  .section-cl .div-titulos h3 {
+    font-size: 1em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*footer.html*/
+  /*----------*/
+  footer .footer-grid {
+    display: grid;
+    grid-template-areas: "h3" "ln" "cl" "jyc" "ff" "pest" "fit" "hb" "bin" "live" "pf";
+    justify-content: center;
+    align-items: none;
+    justify-items: center;
+    grid-gap: none;
+  }
+  footer .footer-grid .nike-grid .nike {
+    height: 7em;
+  }
+  footer .footer-grid .clear-grid .clear {
+    height: 7em;
+  }
+  footer .footer-grid .free-grid .free {
+    height: 8em;
+  }
+  footer .footer-grid .herba-grid .herbalife {
+    height: 7em;
+  }
+  footer .footer-grid .bin-grid .binance {
+    margin-top: 15px;
+    height: 6.5em;
+  }
+}
+@media (max-width: 426px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio div img {
+    height: 17em;
+    width: 22em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  main h1 {
+    font-size: 27px;
+  }
+  main .section-gral .h3-gral, main .section-sass .h3-gral, main .bloque-sass .h3-gral {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  main .section-gral .bloque .iframe-gral, main .section-sass .bloque .iframe-gral, main .bloque-sass .bloque .iframe-gral {
+    height: 30em;
+    width: 83%;
+  }
+  main .section-gral .bloque .p-gral, main .section-sass .bloque .p-gral, main .bloque-sass .bloque .p-gral {
+    margin-top: 0;
+  }
+  main .section-gral .bloque .h3-subtitulos, main .section-sass .bloque .h3-subtitulos, main .bloque-sass .bloque .h3-subtitulos {
+    padding-top: 10px;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .h2, .section-sass .h2, .bloque-sass .h2 {
+    text-align: center;
+  }
+  .section-gral .box .carrusel .elementos, .section-sass .box .carrusel .elementos, .bloque-sass .box .carrusel .elementos {
+    height: 24em;
+  }
+  .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+    width: 8em;
+    height: 8em;
+  }
+  .section-gral .box .carrusel .elementos .h4-grid, .section-sass .box .carrusel .elementos .h4-grid, .bloque-sass .box .carrusel .elementos .h4-grid {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 376px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  header nav .collapse .ul-header {
+    padding: 0;
+    margin: 0;
+  }
+  header nav div img {
+    padding-left: 0;
+  }
+  .section-bio .p-bio-records {
+    font-size: 1em;
+  }
+  .section-bio div img {
+    height: 16em;
+  }
+  .section-carrera iframe {
+    height: 28em;
+    width: 19.5em;
+  }
+  .section-records div img {
+    height: 27em;
+    width: 18em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 80%;
+    height: 27em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .section-cl .div-img .img-sporting {
+    width: 20.5em;
+    height: 14em;
+  }
+  .section-cl .div-img .img-manchester {
+    width: 20.5em;
+    height: 12em;
+  }
+  .section-cl .div-img .img-real {
+    width: 20.5em;
+    height: 12em;
+  }
+  .section-cl .div-img .img-juve {
+    width: 20.5em;
+    height: 12em;
+  }
+  .section-cl .div-img .img-portugal {
+    width: 20.5em;
+    height: 12em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .box .carrusel .elementos img, .section-sass .box .carrusel .elementos img, .bloque-sass .box .carrusel .elementos img {
+    width: 7.5em;
+  }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid .h2-grid {
+    font-size: 0.8em;
+  }
+  .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
+    width: 20em;
+    height: 15em;
+  }
+  .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
+    width: 20em;
+    height: 15em;
+  }
+  .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+    width: 20em;
+    height: 15em;
+  }
+  .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+    width: 20em;
+    height: 15em;
+  }
+  .grid .hotel-5 .img-lisboa {
+    width: 20em;
+    height: 8em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*footer.html*/
+  /*----------*/
+  footer .footer-grid h3 {
+    font-size: 16px;
+  }
+  footer .footer-grid .nike-grid .nike {
+    width: 11em;
+    height: 7em;
+  }
+  footer .footer-grid .clear-grid .clear {
+    width: 11em;
+    height: 7em;
+  }
+  footer .footer-grid .free-grid .free {
+    width: 11em;
+    height: 7em;
+  }
+  footer .footer-grid .pestana-grid .pestana {
+    width: 9em;
+    height: 8em;
+  }
+  footer .footer-grid .fit-grid .fitnes {
+    width: 9em;
+    height: 8em;
+  }
+  footer .footer-grid .bin-grid .binance {
+    width: 13em;
+  }
+  footer .footer-grid .live-grid .live {
+    width: 13em;
+  }
+  footer .footer-grid p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  /*-----------*/
+  /*index.html*/
+  /*---------*/
+  .section-bio .p-bio-records {
+    font-size: 1em;
+  }
+  .section-bio div img {
+    height: 14em;
+    width: 19em;
+  }
+  .section-carrera iframe {
+    height: 23em;
+    width: 15em;
+  }
+  .section-records div img {
+    height: 22em;
+    width: 15em;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*carrera.html*/
+  /*-----------*/
+  .section-gral .bloque .iframe-gral, .section-sass .bloque .iframe-gral, .bloque-sass .bloque .iframe-gral {
+    width: 85%;
+    height: 23em;
+  }
+  .section-gral .bloque .p-gral, .section-sass .bloque .p-gral, .bloque-sass .bloque .p-gral {
+    margin-top: 0;
+  }
+  /*------------------------------------------------*/
+  /*-------------*/
+  /*records.html*/
+  /*-----------*/
+  .section-cl .div-titulos h3 {
+    font-size: 0.8em;
+  }
+  .section-cl .div-img .img-sporting {
+    width: 17em;
+    height: 11em;
+  }
+  .section-cl .div-img .img-manchester {
+    width: 17em;
+    height: 10em;
+  }
+  .section-cl .div-img .img-real {
+    width: 17em;
+    height: 11em;
+  }
+  .section-cl .div-img .img-juve {
+    width: 17em;
+    height: 10em;
+  }
+  .section-cl .div-img .img-portugal {
+    width: 17em;
+    height: 10em;
+  }
+  /*------------------------------------------------*/
+  /*------------*/
+  /*tienda.html*/
+  /*----------*/
+  .section-gral .h2, .section-sass .h2, .bloque-sass .h2 {
+    font-size: 1.3em;
+  }
+  /*------------------------------------------------*/
+  /*-----------*/
+  /*hotel.html*/
+  /*---------*/
+  .grid .h2-grid {
+    font-size: 0.7em;
+  }
+  .grid .hotel-1 .img-madrid, .grid .hotel-2 .img-madrid, .grid .hotel-3 .img-madrid, .grid .hotel-4 .img-madrid, .grid .hotel-5 .img-madrid {
+    width: 17em;
+    height: 14em;
+  }
+  .grid .hotel-2 .img-funchal, .grid .hotel-3 .img-funchal, .grid .hotel-4 .img-funchal, .grid .hotel-5 .img-funchal {
+    width: 17em;
+    height: 14em;
+  }
+  .grid .hotel-3 .img-eeuu, .grid .hotel-4 .img-eeuu, .grid .hotel-5 .img-eeuu {
+    width: 17em;
+    height: 14em;
+  }
+  .grid .hotel-4 .img-marruecos, .grid .hotel-5 .img-marruecos {
+    width: 17em;
+    height: 14em;
+  }
+  .grid .hotel-5 .img-lisboa {
+    width: 17em;
+    height: 8em;
+  }
+}/*# sourceMappingURL=style.css.map */
