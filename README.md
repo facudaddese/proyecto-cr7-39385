@@ -6,7 +6,7 @@
 - Una barra de navegacion, la cual permitira navegar entre las distintas paginas.
 - Menu responsive con Bootstrap.
 - Imagenes alineadas con GRID.
-- Imagenes que redireccionan a otras paginas.
+- Imagenes que redireccionan a sitio de e-commerce.
 - Secciones alineadas con FLEX.
 - Videos subidos desde mi canal de Youtube, que ilustran cada uno de sus pasos por los diferentes equipos del mundo.
 - Animaciones.
