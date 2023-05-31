@@ -281,7 +281,7 @@ section .h3-gral {
           font-size: 15px; }
         .section-gral .box .carrusel .elementos .boton, .section-sass .box .carrusel .elementos .boton, .bloque-sass .box .carrusel .elementos .boton {
           text-align: center; }
-          .section-gral .box .carrusel .elementos .boton .button, .section-sass .box .carrusel .elementos .boton .button, .bloque-sass .box .carrusel .elementos .boton .button {
+          .section-gral .box .carrusel .elementos .boton a .button, .section-sass .box .carrusel .elementos .boton a .button, .bloque-sass .box .carrusel .elementos .boton a .button {
             background-color: #000000;
             line-height: 25px;
             font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
