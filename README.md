@@ -1,8 +1,6 @@
 # Proyecto CR7
 
-> Este es mi primer sitio web responsive que incluye cinco páginas HTML completamente maquetadas. El sitio está dedicado a Cristiano Ronaldo, donde se explora en detalle su vida, carrera deportiva, títulos obtenidos y récords impresionantes.
-
-Cada sección está diseñada para proporcionar una visión completa de la trayectoria de este gran futbolista, desde sus inicios hasta sus logros más recientes. Además, el sitio está optimizado para ofrecer una experiencia de navegación fluida tanto en dispositivos móviles como de escritorio.
+> Este es mi primer sitio web responsive que incluye cinco páginas HTML completamente maquetadas. El sitio está dedicado a Cristiano Ronaldo, donde se explora en detalle su vida, carrera deportiva, títulos obtenidos y récords impresionantes. Cada sección está diseñada para proporcionar una visión completa de la trayectoria de este gran futbolista, desde sus inicios hasta sus logros más recientes. Además, el sitio está optimizado para ofrecer una experiencia de navegación fluida tanto en dispositivos móviles como de escritorio.
 
 ### La pagina cuenta con:
 - Una barra de navegacion, la cual permitira navegar entre las distintas paginas.
